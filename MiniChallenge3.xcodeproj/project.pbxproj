@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1073F68827C62C720089312C /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073F68727C62C720089312C /* homeVC.swift */; };
 		10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD132D27C61F490059DCD0 /* AppDelegate.swift */; };
 		10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD132F27C61F490059DCD0 /* SceneDelegate.swift */; };
 		10BD133227C61F490059DCD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD133127C61F490059DCD0 /* ViewController.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1073F68727C62C720089312C /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		10BD132A27C61F490059DCD0 /* MiniChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BD132D27C61F490059DCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10BD132F27C61F490059DCD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				10BD133627C61F490059DCD0 /* MiniChallenge3.xcdatamodeld */,
 				10BD136027C627F00059DCD0 /* descripctionVC.swift */,
 				10BD136227C628A80059DCD0 /* requstVC.swift */,
+				1073F68727C62C720089312C /* homeVC.swift */,
 			);
 			path = MiniChallenge3;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
 				10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */,
+				1073F68827C62C720089312C /* homeVC.swift in Sources */,
 				10BD136327C628A80059DCD0 /* requstVC.swift in Sources */,
 				10BD133827C61F490059DCD0 /* MiniChallenge3.xcdatamodeld in Sources */,
 				10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */,
