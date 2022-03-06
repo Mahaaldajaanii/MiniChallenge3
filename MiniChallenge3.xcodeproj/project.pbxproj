@@ -18,8 +18,12 @@
 		10BD134827C61F4A0059DCD0 /* MiniChallenge3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD134727C61F4A0059DCD0 /* MiniChallenge3Tests.swift */; };
 		10BD135227C61F4A0059DCD0 /* MiniChallenge3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD135127C61F4A0059DCD0 /* MiniChallenge3UITests.swift */; };
 		10BD135427C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD135327C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift */; };
-		10BD136127C627F00059DCD0 /* descripctionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD136027C627F00059DCD0 /* descripctionVC.swift */; };
-		10BD136327C628A80059DCD0 /* requstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD136227C628A80059DCD0 /* requstVC.swift */; };
+		10C43F2427D49C85007BF6F1 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2327D49C84007BF6F1 /* DescriptionVC.swift */; };
+		10C43F2627D49C90007BF6F1 /* DescriotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2527D49C90007BF6F1 /* DescriotionCell.swift */; };
+		10C43F2827D49C9D007BF6F1 /* ParticipantsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2727D49C9D007BF6F1 /* ParticipantsCollectionCell.swift */; };
+		10C43F2A27D49CAD007BF6F1 /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2927D49CAD007BF6F1 /* RequestsCell.swift */; };
+		10C43F2C27D49D4B007BF6F1 /* RequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2B27D49D4B007BF6F1 /* RequestVC.swift */; };
+		10C43F2E27D49D76007BF6F1 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F2D27D49D76007BF6F1 /* RequestCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,8 +59,12 @@
 		10BD134D27C61F4A0059DCD0 /* MiniChallenge3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BD135127C61F4A0059DCD0 /* MiniChallenge3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge3UITests.swift; sourceTree = "<group>"; };
 		10BD135327C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge3UITestsLaunchTests.swift; sourceTree = "<group>"; };
-		10BD136027C627F00059DCD0 /* descripctionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = descripctionVC.swift; sourceTree = "<group>"; };
-		10BD136227C628A80059DCD0 /* requstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = requstVC.swift; sourceTree = "<group>"; };
+		10C43F2327D49C84007BF6F1 /* DescriptionVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriptionVC.swift; path = "../../Challenge3 Maha/Challenge3 Maha/DescriptionVC.swift"; sourceTree = "<group>"; };
+		10C43F2527D49C90007BF6F1 /* DescriotionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DescriotionCell.swift; path = "../../Challenge3 Maha/Challenge3 Maha/DescriotionCell.swift"; sourceTree = "<group>"; };
+		10C43F2727D49C9D007BF6F1 /* ParticipantsCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ParticipantsCollectionCell.swift; path = "../../Challenge3 Maha/Challenge3 Maha/ParticipantsCollectionCell.swift"; sourceTree = "<group>"; };
+		10C43F2927D49CAD007BF6F1 /* RequestsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestsCell.swift; path = "../../Challenge3 Maha/Challenge3 Maha/RequestsCell.swift"; sourceTree = "<group>"; };
+		10C43F2B27D49D4B007BF6F1 /* RequestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestVC.swift; path = "../../Challenge3 Maha/Challenge3 Maha/RequestVC.swift"; sourceTree = "<group>"; };
+		10C43F2D27D49D76007BF6F1 /* RequestCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RequestCell.swift; path = "../../Challenge3 Maha/Challenge3 Maha/RequestCell.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,13 +118,17 @@
 				10BD132D27C61F490059DCD0 /* AppDelegate.swift */,
 				10BD132F27C61F490059DCD0 /* SceneDelegate.swift */,
 				10BD133127C61F490059DCD0 /* ViewController.swift */,
+				10C43F2327D49C84007BF6F1 /* DescriptionVC.swift */,
+				10C43F2527D49C90007BF6F1 /* DescriotionCell.swift */,
+				10C43F2727D49C9D007BF6F1 /* ParticipantsCollectionCell.swift */,
+				10C43F2927D49CAD007BF6F1 /* RequestsCell.swift */,
+				10C43F2D27D49D76007BF6F1 /* RequestCell.swift */,
+				10C43F2B27D49D4B007BF6F1 /* RequestVC.swift */,
 				10BD133327C61F490059DCD0 /* Main.storyboard */,
 				10BD133927C61F4A0059DCD0 /* Assets.xcassets */,
 				10BD133B27C61F4A0059DCD0 /* LaunchScreen.storyboard */,
 				10BD133E27C61F4A0059DCD0 /* Info.plist */,
 				10BD133627C61F490059DCD0 /* MiniChallenge3.xcdatamodeld */,
-				10BD136027C627F00059DCD0 /* descripctionVC.swift */,
-				10BD136227C628A80059DCD0 /* requstVC.swift */,
 				1073F68727C62C720089312C /* homeVC.swift */,
 			);
 			path = MiniChallenge3;
@@ -270,13 +282,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C43F2C27D49D4B007BF6F1 /* RequestVC.swift in Sources */,
+				10C43F2E27D49D76007BF6F1 /* RequestCell.swift in Sources */,
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
+				10C43F2427D49C85007BF6F1 /* DescriptionVC.swift in Sources */,
+				10C43F2827D49C9D007BF6F1 /* ParticipantsCollectionCell.swift in Sources */,
+				10C43F2627D49C90007BF6F1 /* DescriotionCell.swift in Sources */,
 				10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */,
 				1073F68827C62C720089312C /* homeVC.swift in Sources */,
-				10BD136327C628A80059DCD0 /* requstVC.swift in Sources */,
+				10C43F2A27D49CAD007BF6F1 /* RequestsCell.swift in Sources */,
 				10BD133827C61F490059DCD0 /* MiniChallenge3.xcdatamodeld in Sources */,
 				10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */,
-				10BD136127C627F00059DCD0 /* descripctionVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
