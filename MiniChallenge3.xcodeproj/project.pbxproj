@@ -18,6 +18,12 @@
 		10BD134827C61F4A0059DCD0 /* MiniChallenge3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD134727C61F4A0059DCD0 /* MiniChallenge3Tests.swift */; };
 		10BD135227C61F4A0059DCD0 /* MiniChallenge3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD135127C61F4A0059DCD0 /* MiniChallenge3UITests.swift */; };
 		10BD135427C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD135327C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift */; };
+		10C43F5C27D5EE4F007BF6F1 /* DescriptionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F5B27D5EE4F007BF6F1 /* DescriptionVC.swift */; };
+		10C43F5E27D5EE8F007BF6F1 /* RequestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F5D27D5EE8F007BF6F1 /* RequestVC.swift */; };
+		10C43F6027D5EEC3007BF6F1 /* DescriotionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F5F27D5EEC3007BF6F1 /* DescriotionCell.swift */; };
+		10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */; };
+		10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */; };
+		10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		10BD134D27C61F4A0059DCD0 /* MiniChallenge3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiniChallenge3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BD135127C61F4A0059DCD0 /* MiniChallenge3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge3UITests.swift; sourceTree = "<group>"; };
 		10BD135327C61F4A0059DCD0 /* MiniChallenge3UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniChallenge3UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		10C43F5B27D5EE4F007BF6F1 /* DescriptionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionVC.swift; sourceTree = "<group>"; };
+		10C43F5D27D5EE8F007BF6F1 /* RequestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestVC.swift; sourceTree = "<group>"; };
+		10C43F5F27D5EEC3007BF6F1 /* DescriotionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriotionCell.swift; sourceTree = "<group>"; };
+		10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
+		10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
+		10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +118,12 @@
 				10BD132D27C61F490059DCD0 /* AppDelegate.swift */,
 				10BD132F27C61F490059DCD0 /* SceneDelegate.swift */,
 				10BD133127C61F490059DCD0 /* ViewController.swift */,
+				10C43F5D27D5EE8F007BF6F1 /* RequestVC.swift */,
+				10C43F5B27D5EE4F007BF6F1 /* DescriptionVC.swift */,
+				10C43F5F27D5EEC3007BF6F1 /* DescriotionCell.swift */,
+				10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */,
+				10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */,
+				10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */,
 				10BD133327C61F490059DCD0 /* Main.storyboard */,
 				10BD133927C61F4A0059DCD0 /* Assets.xcassets */,
 				10BD133B27C61F4A0059DCD0 /* LaunchScreen.storyboard */,
@@ -264,9 +282,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10C43F5E27D5EE8F007BF6F1 /* RequestVC.swift in Sources */,
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
+				10C43F5C27D5EE4F007BF6F1 /* DescriptionVC.swift in Sources */,
+				10C43F6027D5EEC3007BF6F1 /* DescriotionCell.swift in Sources */,
 				10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */,
+				10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */,
 				1073F68827C62C720089312C /* homeVC.swift in Sources */,
+				10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */,
+				10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */,
 				10BD133827C61F490059DCD0 /* MiniChallenge3.xcdatamodeld in Sources */,
 				10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */,
 			);

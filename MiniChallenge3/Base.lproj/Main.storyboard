@@ -43,7 +43,7 @@
         <!--DescriptionVC-->
         <scene sceneID="Afx-ix-soW">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ac8-6q-ba2" customClass="DescriptionVC" customModule="Challenge3_Maha" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="ac8-6q-ba2" customClass="DescriptionVC" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tk8-q2-gMl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -96,7 +96,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="I7Z-6V-eQA" customClass="ParticipantsCollectionCell" customModule="Challenge3_Maha" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="I7Z-6V-eQA" customClass="ParticipantsCollectionCell" customModule="MiniChallenge3" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="7.5" width="140" height="47"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="U4f-Jm-G4b">
@@ -160,7 +160,7 @@
                                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                                 </collectionViewFlowLayout>
                                                 <cells>
-                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="7cy-gL-4Xq" customClass="RequestsCell" customModule="Challenge3_Maha" customModuleProvider="target">
+                                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="7cy-gL-4Xq" customClass="RequestsCell" customModule="MiniChallenge3" customModuleProvider="target">
                                                         <rect key="frame" x="0.0" y="12" width="57" height="48"/>
                                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="W3G-gp-Q91">
@@ -260,7 +260,7 @@
         <!--Requests-->
         <scene sceneID="Hog-3a-PYD">
             <objects>
-                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="K0E-aA-Gfl" customClass="RequestVC" customModule="Challenge3_Maha" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalTransitionStyle="crossDissolve" modalPresentationStyle="fullScreen" id="K0E-aA-Gfl" customClass="RequestVC" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Hul-N6-S9u">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -276,7 +276,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="7J7-1y-QET" customClass="RequestCell" customModule="Challenge3_Maha" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="7J7-1y-QET" customClass="RequestCell" customModule="MiniChallenge3" customModuleProvider="target">
                                         <rect key="frame" x="-0.5" y="0.0" width="375" height="152"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="shU-go-BEA">
@@ -387,7 +387,7 @@
         <image name="c4" width="512" height="512"/>
         <image name="theme" width="741" height="512"/>
         <namedColor name="Background">
-            <color red="0.95377010107040405" green="0.95377010107040405" blue="0.95377010107040405" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.95375174283981323" green="0.95375174283981323" blue="0.95375174283981323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Page">
             <color red="0.32899999618530273" green="0.32400000095367432" blue="0.4779999852180481" alpha="0.33000001311302185" colorSpace="custom" customColorSpace="sRGB"/>
