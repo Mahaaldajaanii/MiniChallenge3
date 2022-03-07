@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VAC-0A-01h">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ac8-6q-ba2">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5003" y="2087"/>
+            <point key="canvasLocation" x="-5386" y="2109"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gbS-kY-g5B">
@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMl-6a-eaL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5004" y="2087"/>
+            <point key="canvasLocation" x="-4329" y="2063"/>
         </scene>
         <!--DescriptionVC-->
         <scene sceneID="Afx-ix-soW">
@@ -66,6 +66,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c1" translatesAutoresizingMaskIntoConstraints="NO" id="HlO-LI-20I">
                                                 <rect key="frame" x="20" y="350" width="35" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" name="yellow1"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Sunday 12/6/2022" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="di3-hr-9WM">
                                                 <rect key="frame" x="76" y="350" width="268" height="21"/>
@@ -84,6 +85,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c3" translatesAutoresizingMaskIntoConstraints="NO" id="wys-Qe-mzp">
                                                 <rect key="frame" x="20" y="479" width="35" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" name="yellow1"/>
                                             </imageView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="dYU-40-poq">
                                                 <rect key="frame" x="18" y="580" width="358" height="62"/>
@@ -133,6 +135,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c2" translatesAutoresizingMaskIntoConstraints="NO" id="6r9-1X-2Ot">
                                                 <rect key="frame" x="20" y="417" width="35" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" name="yellow1"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="SoftWare Engineering" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBt-sg-xAL">
                                                 <rect key="frame" x="31" y="203" width="332" height="70"/>
@@ -148,6 +151,7 @@
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="c4" translatesAutoresizingMaskIntoConstraints="NO" id="L08-as-Ngx">
                                                 <rect key="frame" x="341" y="614" width="35" height="28"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" name="yellow1"/>
                                             </imageView>
                                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="vGd-Wf-aFU">
                                                 <rect key="frame" x="18" y="694" width="358" height="72"/>
@@ -197,6 +201,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vpW-1z-PqF">
                                                 <rect key="frame" x="277" y="780" width="99" height="29"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <color key="tintColor" name="yellow1"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="filled" title="See more" cornerStyle="capsule">
                                                     <color key="baseForegroundColor" systemColor="labelColor"/>
@@ -255,7 +260,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EOe-Lf-hXt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2854" y="296"/>
+            <point key="canvasLocation" x="3763.7681159420295" y="295.98214285714283"/>
         </scene>
         <!--Requests-->
         <scene sceneID="Hog-3a-PYD">
@@ -289,7 +294,7 @@
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="filled" title="Accept" cornerStyle="capsule">
                                                         <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                        <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                                        <color key="baseBackgroundColor" name="yellow1"/>
                                                     </buttonConfiguration>
                                                     <connections>
                                                         <action selector="accept:" destination="7J7-1y-QET" eventType="touchUpInside" id="bOM-D6-Bmp"/>
@@ -354,7 +359,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fM-xg-lXQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3741" y="275"/>
+            <point key="canvasLocation" x="4650.7246376811599" y="274.55357142857139"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f6t-uZ-ova">
@@ -373,7 +378,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="X3m-AR-kh2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1937.68115942029" y="314.73214285714283"/>
+            <point key="canvasLocation" x="2847.826086956522" y="314.73214285714283"/>
         </scene>
         <!--Notification -->
         <scene sceneID="WL0-Fq-ieo">
@@ -459,6 +464,7 @@
                             <constraint firstAttribute="bottom" secondItem="aMt-jc-5j0" secondAttribute="bottom" id="bX4-Ii-AVD"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="bell.fill" catalog="system" id="QsN-7n-X9h"/>
                     <navigationItem key="navigationItem" title="Notification " id="DWS-UF-J2m">
                         <barButtonItem key="rightBarButtonItem" image="gearshape.2" catalog="system" style="plain" id="r4N-Eh-vkB">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" id="JYE-fQ-mhD">
@@ -478,6 +484,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nVC-dN-NpG" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="903" y="815"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="JNx-hh-s0n">
+            <objects>
+                <viewController id="pzD-rS-0K1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EVd-vV-uNd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="LwW-a8-TTY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="icB-8n-Y4S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AYI-n3-kVl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1079.7101449275362" y="60.9375"/>
         </scene>
         <!--Logout View Controller-->
         <scene sceneID="Bax-c3-7c4">
@@ -536,6 +558,7 @@
                         <viewLayoutGuide key="safeArea" id="xmr-Kj-a5e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="rectangle.trailinghalf.filled" catalog="system" id="9fc-L6-JUe"/>
                     <connections>
                         <outlet property="settingtableview" destination="Is2-Yu-Opl" id="LMA-v9-5Rd"/>
                     </connections>
@@ -544,12 +567,34 @@
             </objects>
             <point key="canvasLocation" x="96" y="815"/>
         </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="DqZ-k1-hnk">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="o3X-WW-lLb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="k8h-Tx-b2f">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="barTintColor" name="Background"/>
+                        <color key="selectedImageTintColor" name="yellow1"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="VAC-0A-01h" kind="relationship" relationship="viewControllers" id="yJy-fk-6gk"/>
+                        <segue destination="chA-5v-wiO" kind="relationship" relationship="viewControllers" id="8gN-cr-efQ"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pBn-lT-2y0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="169.56521739130437" y="60.9375"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
+        <segue reference="o3K-oD-Ehb"/>
         <segue reference="f1o-Xw-8jF"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image 2" width="512" height="512"/>
+        <image name="bell.fill" catalog="system" width="128" height="124"/>
         <image name="c1" width="620" height="512"/>
         <image name="c2" width="538" height="512"/>
         <image name="c3" width="538" height="512"/>
@@ -557,6 +602,7 @@
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.2" catalog="system" width="128" height="100"/>
         <image name="lock" width="17" height="20"/>
+        <image name="rectangle.trailinghalf.filled" catalog="system" width="128" height="93"/>
         <image name="theme" width="741" height="512"/>
         <namedColor name="Background">
             <color red="0.95375174283981323" green="0.95375174283981323" blue="0.95375174283981323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -575,9 +621,6 @@
         </systemColor>
         <systemColor name="systemGray6Color">
             <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemYellowColor">
-            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
