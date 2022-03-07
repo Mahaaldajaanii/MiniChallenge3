@@ -23,7 +23,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="35" y="98"/>
+            <point key="canvasLocation" x="-5003" y="2087"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="gbS-kY-g5B">
@@ -38,7 +38,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pMl-6a-eaL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="903" y="98"/>
+            <point key="canvasLocation" x="-5004" y="2087"/>
         </scene>
         <!--DescriptionVC-->
         <scene sceneID="Afx-ix-soW">
@@ -354,7 +354,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5fM-xg-lXQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4578" y="-343"/>
+            <point key="canvasLocation" x="3741" y="275"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="f6t-uZ-ova">
@@ -378,7 +378,7 @@
         <!--Notification -->
         <scene sceneID="WL0-Fq-ieo">
             <objects>
-                <viewController id="VAC-0A-01h" customClass="coursesViewController" customModule="newstory1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="VAC-0A-01h" customClass="coursesViewController" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="W65-dS-V0t">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -387,7 +387,7 @@
                                 <rect key="frame" x="0.0" y="78" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="courses" rowHeight="143" id="6Cs-bs-iYc" customClass="coursesTableViewCell" customModule="newstory1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="courses" rowHeight="143" id="6Cs-bs-iYc" customClass="coursesTableViewCell" customModule="MiniChallenge3" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="143"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="6Cs-bs-iYc" id="jj8-Tt-cYZ">
@@ -402,7 +402,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jpz-Bu-iks">
-                                                    <rect key="frame" x="28" y="102" width="346" height="22"/>
+                                                    <rect key="frame" x="28" y="101.5" width="358" height="22.5"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" secondItem="Jpz-Bu-iks" secondAttribute="height" multiplier="334:21" id="xnu-39-4J1"/>
                                                     </constraints>
@@ -482,7 +482,7 @@
         <!--Logout View Controller-->
         <scene sceneID="Bax-c3-7c4">
             <objects>
-                <viewController id="chA-5v-wiO" customClass="logoutViewController" customModule="newstory1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="chA-5v-wiO" customClass="logoutViewController" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5rf-IX-SLL">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -503,7 +503,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settings cell" id="5j0-Ma-csm" customClass="logoutTableViewCell" customModule="newstory1" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settings cell" id="5j0-Ma-csm" customClass="logoutTableViewCell" customModule="MiniChallenge3" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="44.5" width="414" height="43.5"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5j0-Ma-csm" id="ukk-n0-cT4">
