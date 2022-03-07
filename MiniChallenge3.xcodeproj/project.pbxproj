@@ -24,6 +24,12 @@
 		10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */; };
 		10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */; };
 		10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */; };
+		D6F9EEFA27D5F6AB0082F538 /* logoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEF927D5F6AB0082F538 /* logoutViewController.swift */; };
+		D6F9EEFC27D5F73E0082F538 /* logoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEFB27D5F73E0082F538 /* logoutTableViewCell.swift */; };
+		D6F9EEFE27D5F78B0082F538 /* coursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */; };
+		D6F9EF0027D5F8060082F538 /* coursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEFF27D5F8060082F538 /* coursesViewController.swift */; };
+		D6F9EF0227D5F8AC0082F538 /* course.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EF0127D5F8AC0082F538 /* course.swift */; };
+		D6F9EF0427D5F8E60082F538 /* setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EF0327D5F8E60082F538 /* setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +71,12 @@
 		10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
 		10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 		10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCollectionCell.swift; sourceTree = "<group>"; };
+		D6F9EEF927D5F6AB0082F538 /* logoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutViewController.swift; sourceTree = "<group>"; };
+		D6F9EEFB27D5F73E0082F538 /* logoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutTableViewCell.swift; sourceTree = "<group>"; };
+		D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesTableViewCell.swift; sourceTree = "<group>"; };
+		D6F9EEFF27D5F8060082F538 /* coursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesViewController.swift; sourceTree = "<group>"; };
+		D6F9EF0127D5F8AC0082F538 /* course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = course.swift; sourceTree = "<group>"; };
+		D6F9EF0327D5F8E60082F538 /* setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,12 +136,18 @@
 				10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */,
 				10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */,
 				10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */,
+				D6F9EEF927D5F6AB0082F538 /* logoutViewController.swift */,
+				D6F9EEFB27D5F73E0082F538 /* logoutTableViewCell.swift */,
+				D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */,
+				D6F9EEFF27D5F8060082F538 /* coursesViewController.swift */,
 				10BD133327C61F490059DCD0 /* Main.storyboard */,
 				10BD133927C61F4A0059DCD0 /* Assets.xcassets */,
 				10BD133B27C61F4A0059DCD0 /* LaunchScreen.storyboard */,
 				10BD133E27C61F4A0059DCD0 /* Info.plist */,
 				10BD133627C61F490059DCD0 /* MiniChallenge3.xcdatamodeld */,
 				1073F68727C62C720089312C /* homeVC.swift */,
+				D6F9EF0127D5F8AC0082F538 /* course.swift */,
+				D6F9EF0327D5F8E60082F538 /* setting.swift */,
 			);
 			path = MiniChallenge3;
 			sourceTree = "<group>";
@@ -284,14 +302,20 @@
 			files = (
 				10C43F5E27D5EE8F007BF6F1 /* RequestVC.swift in Sources */,
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
+				D6F9EEFA27D5F6AB0082F538 /* logoutViewController.swift in Sources */,
 				10C43F5C27D5EE4F007BF6F1 /* DescriptionVC.swift in Sources */,
 				10C43F6027D5EEC3007BF6F1 /* DescriotionCell.swift in Sources */,
 				10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */,
 				10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */,
 				1073F68827C62C720089312C /* homeVC.swift in Sources */,
+				D6F9EF0427D5F8E60082F538 /* setting.swift in Sources */,
+				D6F9EF0227D5F8AC0082F538 /* course.swift in Sources */,
+				D6F9EEFC27D5F73E0082F538 /* logoutTableViewCell.swift in Sources */,
 				10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */,
+				D6F9EF0027D5F8060082F538 /* coursesViewController.swift in Sources */,
 				10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */,
 				10BD133827C61F490059DCD0 /* MiniChallenge3.xcdatamodeld in Sources */,
+				D6F9EEFE27D5F78B0082F538 /* coursesTableViewCell.swift in Sources */,
 				10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
