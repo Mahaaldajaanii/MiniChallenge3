@@ -9,7 +9,7 @@ import UIKit
 
 class RequestVC: UIViewController {
     
-
+    
     @IBOutlet weak var collection: UICollectionView!
     var model = DescriptionVC()
     
@@ -26,30 +26,52 @@ class RequestVC: UIViewController {
         collection.delegate = self
         collection.dataSource = self
         
-
+        
         // Do any additional setup after loading the view.
     }
-    
-    
-
-
-}
-extension RequestVC : ShowVC {
-   func accept(_ cell: RequestCell) {
-      //  let indexPath = collection.indexPath(for: cell)
-      // model.photoArray.append(DescriptionVC.Photo(photo: UIImage(named: "Image2")))
-    
-        
-//        if indexPath?.row == 1 {
-//        }
-        
-      //  print("DDDD \(indexPath?.row)")
-        performSegue(withIdentifier: "accept", sender: nil)
-      // collection.reloadData()
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        //        let collectionView = storyboard?.instantiateViewController(withIdentifier: "accept") as? DescriptionVC
+        //        collectionView?. = model.photoArrayy[indexPath.row]
+        //        self.navigationController?.pushViewController(accept, animated: true)
     }
     
+    
+    
+    
 }
-extension RequestVC : UICollectionViewDataSource , UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
+
+
+//extension RequestVC : ShowVC {
+//func accept(_ cell: RequestCell) {
+//  let indexPath = collection.indexPath(for: cell)
+// model.photoArray.append(DescriptionVC.Photo(photo: UIImage(named: "Image2")))
+
+
+//        if indexPath?.row == 1 {
+//        }
+
+//  print("DDDD \(indexPath?.row)")
+// performSegue(withIdentifier: "accept", sender: nil)
+// collection.reloadData()
+//}
+
+//}
+extension RequestVC : UICollectionViewDataSource , UICollectionViewDelegate, UICollectionViewDelegateFlowLayout , DataCollectionProtocol{
+    
+    func passData(indx: Int) {
+//        let collectionView = storyboard?.instantiateViewController(withIdentifier: "accept") as? DescriptionVC
+//        collectionView?.Requestss = DescriptionVC.Photoo
+//        self.navigationController?.pushViewController(collectionView!, animated: true)
+        performSegue(withIdentifier: "goToDes", sender: nil)
+    }
+    
+    func deletData(indx: Int) {
+        self.student.remove(at: indx)
+        collection.reloadData()
+        
+    }
+    
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return student.count
     }
@@ -63,6 +85,8 @@ extension RequestVC : UICollectionViewDataSource , UICollectionViewDelegate, UIC
         cell.name.text = student[indexPath.row].name
         cell.major.text = student[indexPath.row].major
         cell.image1.image = student[indexPath.row].image
+        cell.index = indexPath
+        cell.delegate = self
         return cell
     }
     
@@ -72,3 +96,4 @@ extension RequestVC : UICollectionViewDataSource , UICollectionViewDelegate, UIC
     
     
 }
+
