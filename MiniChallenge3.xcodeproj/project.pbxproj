@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1046071B27D734A600DA7376 /* ViewControllerHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046071A27D734A600DA7376 /* ViewControllerHome.swift */; };
+		1046071D27D734CD00DA7376 /* ViewControllerGroups.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046071C27D734CD00DA7376 /* ViewControllerGroups.swift */; };
+		1046071F27D7353700DA7376 /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046071E27D7353700DA7376 /* GroupCollectionViewCell.swift */; };
+		1046072127D7355300DA7376 /* SGCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1046072027D7355300DA7376 /* SGCollectionViewCell.swift */; };
 		1073F68827C62C720089312C /* homeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1073F68727C62C720089312C /* homeVC.swift */; };
 		10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD132D27C61F490059DCD0 /* AppDelegate.swift */; };
 		10BD133027C61F490059DCD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD132F27C61F490059DCD0 /* SceneDelegate.swift */; };
@@ -50,6 +54,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1046071A27D734A600DA7376 /* ViewControllerHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerHome.swift; sourceTree = "<group>"; };
+		1046071C27D734CD00DA7376 /* ViewControllerGroups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGroups.swift; sourceTree = "<group>"; };
+		1046071E27D7353700DA7376 /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		1046072027D7355300DA7376 /* SGCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SGCollectionViewCell.swift; sourceTree = "<group>"; };
 		1073F68727C62C720089312C /* homeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeVC.swift; sourceTree = "<group>"; };
 		10BD132A27C61F490059DCD0 /* MiniChallenge3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MiniChallenge3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BD132D27C61F490059DCD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,7 +149,11 @@
 				D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */,
 				D6F9EEFF27D5F8060082F538 /* coursesViewController.swift */,
 				10BD133327C61F490059DCD0 /* Main.storyboard */,
+				1046071A27D734A600DA7376 /* ViewControllerHome.swift */,
+				1046071C27D734CD00DA7376 /* ViewControllerGroups.swift */,
 				10BD133927C61F4A0059DCD0 /* Assets.xcassets */,
+				1046071E27D7353700DA7376 /* GroupCollectionViewCell.swift */,
+				1046072027D7355300DA7376 /* SGCollectionViewCell.swift */,
 				10BD133B27C61F4A0059DCD0 /* LaunchScreen.storyboard */,
 				10BD133E27C61F4A0059DCD0 /* Info.plist */,
 				10BD133627C61F490059DCD0 /* MiniChallenge3.xcdatamodeld */,
@@ -302,17 +314,21 @@
 			files = (
 				10C43F5E27D5EE8F007BF6F1 /* RequestVC.swift in Sources */,
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
+				1046071D27D734CD00DA7376 /* ViewControllerGroups.swift in Sources */,
+				1046072127D7355300DA7376 /* SGCollectionViewCell.swift in Sources */,
 				D6F9EEFA27D5F6AB0082F538 /* logoutViewController.swift in Sources */,
 				10C43F5C27D5EE4F007BF6F1 /* DescriptionVC.swift in Sources */,
 				10C43F6027D5EEC3007BF6F1 /* DescriotionCell.swift in Sources */,
 				10BD132E27C61F490059DCD0 /* AppDelegate.swift in Sources */,
 				10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */,
+				1046071F27D7353700DA7376 /* GroupCollectionViewCell.swift in Sources */,
 				1073F68827C62C720089312C /* homeVC.swift in Sources */,
 				D6F9EF0427D5F8E60082F538 /* setting.swift in Sources */,
 				D6F9EF0227D5F8AC0082F538 /* course.swift in Sources */,
 				D6F9EEFC27D5F73E0082F538 /* logoutTableViewCell.swift in Sources */,
 				10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */,
 				D6F9EF0027D5F8060082F538 /* coursesViewController.swift in Sources */,
+				1046071B27D734A600DA7376 /* ViewControllerHome.swift in Sources */,
 				10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */,
 				10BD133827C61F490059DCD0 /* MiniChallenge3.xcdatamodeld in Sources */,
 				D6F9EEFE27D5F78B0082F538 /* coursesTableViewCell.swift in Sources */,
