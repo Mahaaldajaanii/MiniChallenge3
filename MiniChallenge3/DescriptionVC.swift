@@ -27,11 +27,13 @@ class DescriptionVC: UIViewController {
     
     @IBAction func see(_ sender: UIButton) {
     }
+    
     struct Photo {
         var photo : UIImage?
     }
     
     var photoArray : [Photo] = [Photo(photo: UIImage(named: "Image6")), Photo(photo: UIImage(named: "Image4")),Photo(photo: UIImage(named: "Image5"))]
+    
     struct Photoo {
         var photoo : UIImage?
     }
@@ -44,8 +46,8 @@ class DescriptionVC: UIViewController {
         participantCollection.delegate = self
         participantCollection.dataSource = self
         
-      Requestss.delegate = self
-       Requestss.dataSource = self
+        Requestss.delegate = self
+        Requestss.dataSource = self
         
         
     }
@@ -65,13 +67,13 @@ extension DescriptionVC : UICollectionViewDataSource , UICollectionViewDelegate 
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         if collectionView == self.participantCollection {
-
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ParticipantsCollectionCell
-        cell.photo.image = photoArray[indexPath.row].photo
-        
-        return cell
+            
+            let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! ParticipantsCollectionCell
+            cell.photo.image = photoArray[indexPath.row].photo
+            
+            return cell
         } else {
-
+            
             let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! RequestsCell
             cell.Requests.image = photoArrayy[indexPath.row].photoo
             
@@ -89,3 +91,22 @@ extension DescriptionVC : UICollectionViewDataSource , UICollectionViewDelegate 
     
     
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
