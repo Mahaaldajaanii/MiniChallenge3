@@ -19,7 +19,7 @@ class RequestVC: UIViewController {
         var major : String
     }
     
-    var student : [Student] = [Student(image: UIImage(named: "Image2"), name: "Asmaa Saad", major: "Information Technology"), Student(image: UIImage(named: "Image3") , name: "Sara Ahmed", major: "Information Technology"),Student(image:UIImage(named: "Image1") , name: "Nora Faisal", major: "Information Technology") ]
+    var student : [Student] = [Student(image: UIImage(named: "Image2"), name: "Asmaa Saad", major: "Information Technology"), Student(image: UIImage(named: "Image3") , name: "Sara Ahmed", major: "Information Technology"),Student(image:UIImage(named: "Image1") , name: "Nora Faisal", major: "Information Technology"),Student(image:UIImage(named: "Image4") , name: "Nada Salem", major: "Information Technology") ]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Requsts"
