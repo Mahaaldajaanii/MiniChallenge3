@@ -169,9 +169,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Is2-Yu-Opl">
-                                <rect key="frame" x="0.0" y="188" width="414" height="429"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Is2-Yu-Opl">
+                                <rect key="frame" x="0.0" y="127" width="414" height="429"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="settings cell" id="5j0-Ma-csm" customClass="logoutTableViewCell" customModule="MiniChallenge3" customModuleProvider="target">
@@ -203,10 +202,12 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-uG-7fq">
-                                <rect key="frame" x="20" y="663" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-uG-7fq">
+                                <rect key="frame" x="20" y="628" width="374" height="48"/>
                                 <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="48" id="iuk-kV-j4R"/>
+                                </constraints>
                                 <color key="tintColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Button">
@@ -217,6 +218,15 @@
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xmr-Kj-a5e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ecG-uG-7fq" firstAttribute="leading" secondItem="5rf-IX-SLL" secondAttribute="leadingMargin" id="6SB-RJ-fOC"/>
+                            <constraint firstItem="xmr-Kj-a5e" firstAttribute="bottom" secondItem="ecG-uG-7fq" secondAttribute="bottom" constant="137" id="KBA-Hn-hh2"/>
+                            <constraint firstItem="ecG-uG-7fq" firstAttribute="top" secondItem="Is2-Yu-Opl" secondAttribute="bottom" constant="72" id="Qje-3v-t5A"/>
+                            <constraint firstItem="Is2-Yu-Opl" firstAttribute="leading" secondItem="5rf-IX-SLL" secondAttribute="leading" id="RyG-Ga-ymP"/>
+                            <constraint firstItem="Is2-Yu-Opl" firstAttribute="top" secondItem="xmr-Kj-a5e" secondAttribute="top" constant="83" id="koX-xl-TQk"/>
+                            <constraint firstItem="ecG-uG-7fq" firstAttribute="trailing" secondItem="5rf-IX-SLL" secondAttribute="trailingMargin" id="wzE-lK-VDY"/>
+                            <constraint firstItem="ecG-uG-7fq" firstAttribute="centerX" secondItem="Is2-Yu-Opl" secondAttribute="centerX" id="yfL-bP-8ci"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="gearshape.fill" catalog="system" id="9fc-L6-JUe"/>
                     <connections>
