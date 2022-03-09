@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="L3F-Hq-LMJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -169,19 +169,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-uG-7fq">
-                                <rect key="frame" x="20" y="791" width="374" height="48"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
-                                <color key="tintColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="filled" title="Button">
-                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="baseBackgroundColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </buttonConfiguration>
-                            </button>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="Is2-Yu-Opl">
-                                <rect key="frame" x="0.0" y="188" width="414" height="595"/>
+                                <rect key="frame" x="0.0" y="188" width="414" height="429"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
@@ -214,18 +203,29 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ecG-uG-7fq">
+                                <rect key="frame" x="20" y="663" width="374" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <rect key="contentStretch" x="0.0" y="0.0" width="1" height="0.0"/>
+                                <color key="tintColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Button">
+                                    <color key="baseForegroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="baseBackgroundColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </buttonConfiguration>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xmr-Kj-a5e"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="rectangle.trailinghalf.filled" catalog="system" id="9fc-L6-JUe"/>
+                    <tabBarItem key="tabBarItem" title="" image="gearshape.fill" catalog="system" id="9fc-L6-JUe"/>
                     <connections>
                         <outlet property="settingtableview" destination="Is2-Yu-Opl" id="LMA-v9-5Rd"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qTv-IM-QZN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="96" y="815"/>
+            <point key="canvasLocation" x="95.652173913043484" y="814.95535714285711"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="DqZ-k1-hnk">
@@ -242,6 +242,7 @@
                     <connections>
                         <segue destination="VAC-0A-01h" kind="relationship" relationship="viewControllers" id="yJy-fk-6gk"/>
                         <segue destination="chA-5v-wiO" kind="relationship" relationship="viewControllers" id="8gN-cr-efQ"/>
+                        <segue destination="6le-Jz-UdQ" kind="relationship" relationship="viewControllers" id="1vo-Hm-fXW"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBn-lT-2y0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -563,10 +564,10 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6cD-wa-G1g">
-                                <rect key="frame" x="314" y="711" width="80" height="80"/>
+                                <rect key="frame" x="314" y="662" width="80" height="80"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="80" id="4vO-k5-oxX"/>
-                                    <constraint firstAttribute="height" constant="80" id="AA6-mO-LNp"/>
+                                    <constraint firstAttribute="height" constant="80" id="7tc-CV-hcS"/>
+                                    <constraint firstAttribute="width" constant="80" id="TeS-Lv-lNR"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="+" cornerStyle="capsule" titleAlignment="center">
@@ -584,7 +585,6 @@
                         <constraints>
                             <constraint firstItem="5cx-uN-bGf" firstAttribute="centerX" secondItem="ynM-E6-rvH" secondAttribute="centerX" id="14M-Bs-7ML"/>
                             <constraint firstItem="gaq-3m-cgt" firstAttribute="leading" secondItem="o0T-Y7-o4t" secondAttribute="leading" id="Akh-Eb-hqM"/>
-                            <constraint firstItem="kg5-O8-z6B" firstAttribute="bottom" secondItem="6cD-wa-G1g" secondAttribute="bottom" constant="71" id="HVl-DE-PWC"/>
                             <constraint firstItem="goC-ri-3Gl" firstAttribute="top" secondItem="ynM-E6-rvH" secondAttribute="bottom" constant="21" id="QMH-dX-Dzm"/>
                             <constraint firstItem="ynM-E6-rvH" firstAttribute="trailing" secondItem="kg5-O8-z6B" secondAttribute="trailing" id="TOO-We-AP6"/>
                             <constraint firstItem="gaq-3m-cgt" firstAttribute="top" secondItem="ynM-E6-rvH" secondAttribute="bottom" constant="25" id="TlB-iT-oBy"/>
@@ -592,15 +592,17 @@
                             <constraint firstAttribute="trailingMargin" secondItem="goC-ri-3Gl" secondAttribute="trailing" constant="-30" id="VOx-2E-KA3"/>
                             <constraint firstItem="o0T-Y7-o4t" firstAttribute="top" secondItem="gaq-3m-cgt" secondAttribute="bottom" constant="8.5" id="W1F-zP-xg6"/>
                             <constraint firstItem="5cx-uN-bGf" firstAttribute="top" secondItem="o0T-Y7-o4t" secondAttribute="bottom" constant="61.5" id="Wf1-yd-h65"/>
+                            <constraint firstItem="kg5-O8-z6B" firstAttribute="bottom" secondItem="6cD-wa-G1g" secondAttribute="bottom" constant="71" id="ZLk-UQ-yJZ"/>
                             <constraint firstItem="goC-ri-3Gl" firstAttribute="centerY" secondItem="gaq-3m-cgt" secondAttribute="centerY" id="gOS-Vw-m8x"/>
+                            <constraint firstItem="kg5-O8-z6B" firstAttribute="trailing" secondItem="6cD-wa-G1g" secondAttribute="trailing" constant="20" id="khG-3x-wmS"/>
                             <constraint firstItem="o0T-Y7-o4t" firstAttribute="top" secondItem="goC-ri-3Gl" secondAttribute="bottom" constant="5.5" id="ks8-vO-IP5"/>
                             <constraint firstItem="5cx-uN-bGf" firstAttribute="top" secondItem="XaX-w9-NrA" secondAttribute="top" constant="430.5" id="lx2-0j-2iG"/>
                             <constraint firstItem="ynM-E6-rvH" firstAttribute="leading" secondItem="kg5-O8-z6B" secondAttribute="leading" id="p9A-Ia-VXU"/>
                             <constraint firstItem="ynM-E6-rvH" firstAttribute="top" secondItem="XaX-w9-NrA" secondAttribute="top" id="sD4-ju-W3d"/>
                             <constraint firstItem="o0T-Y7-o4t" firstAttribute="trailing" secondItem="ynM-E6-rvH" secondAttribute="trailing" id="vNH-1e-uCm"/>
-                            <constraint firstItem="kg5-O8-z6B" firstAttribute="trailing" secondItem="6cD-wa-G1g" secondAttribute="trailing" constant="20" id="xAx-K7-cgJ"/>
                         </constraints>
                     </view>
+                    <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" id="UAQ-hx-XdS"/>
                     <navigationItem key="navigationItem" id="Kov-RX-t2D"/>
                     <connections>
                         <outlet property="IT" destination="kjV-EM-Hq8" id="13z-Y5-DjH"/>
@@ -979,7 +981,7 @@
             <objects>
                 <viewController id="nXu-yy-2jA" customClass="ViewControllerGroups" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ogl-YN-ltW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ya8-nL-UdO">
@@ -1111,6 +1113,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="COs-3O-ucZ"/>
+        <segue reference="1vo-Hm-fXW"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Image 2" width="512" height="512"/>
@@ -1126,8 +1129,9 @@
         <image name="clock" catalog="system" width="128" height="121"/>
         <image name="gearshape" catalog="system" width="128" height="121"/>
         <image name="gearshape.2" catalog="system" width="128" height="100"/>
+        <image name="gearshape.fill" catalog="system" width="128" height="121"/>
+        <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="lock" width="17" height="20"/>
-        <image name="rectangle.trailinghalf.filled" catalog="system" width="128" height="93"/>
         <image name="theme" width="741" height="512"/>
         <namedColor name="Background">
             <color red="0.95375174283981323" green="0.95375174283981323" blue="0.95375174283981323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
