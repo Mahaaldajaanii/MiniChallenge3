@@ -28,6 +28,8 @@
 		10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */; };
 		10C43F6627D5EF4A007BF6F1 /* RequestCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */; };
 		10C43F6827D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */; };
+		13C08F2B27DF1C51000254E5 /* SeCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C08F2A27DF1C51000254E5 /* SeCVC.swift */; };
+		13C08F2D27DF1C91000254E5 /* FileStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13C08F2C27DF1C91000254E5 /* FileStr.swift */; };
 		D6F9EEFA27D5F6AB0082F538 /* logoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEF927D5F6AB0082F538 /* logoutViewController.swift */; };
 		D6F9EEFC27D5F73E0082F538 /* logoutTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEFB27D5F73E0082F538 /* logoutTableViewCell.swift */; };
 		D6F9EEFE27D5F78B0082F538 /* coursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */; };
@@ -79,6 +81,8 @@
 		10C43F6327D5EF19007BF6F1 /* RequestsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestsCell.swift; sourceTree = "<group>"; };
 		10C43F6527D5EF4A007BF6F1 /* RequestCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCell.swift; sourceTree = "<group>"; };
 		10C43F6727D5EF7F007BF6F1 /* ParticipantsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantsCollectionCell.swift; sourceTree = "<group>"; };
+		13C08F2A27DF1C51000254E5 /* SeCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeCVC.swift; sourceTree = "<group>"; };
+		13C08F2C27DF1C91000254E5 /* FileStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileStr.swift; sourceTree = "<group>"; };
 		D6F9EEF927D5F6AB0082F538 /* logoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutViewController.swift; sourceTree = "<group>"; };
 		D6F9EEFB27D5F73E0082F538 /* logoutTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logoutTableViewCell.swift; sourceTree = "<group>"; };
 		D6F9EEFD27D5F78B0082F538 /* coursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = coursesTableViewCell.swift; sourceTree = "<group>"; };
@@ -160,6 +164,8 @@
 				1073F68727C62C720089312C /* homeVC.swift */,
 				D6F9EF0127D5F8AC0082F538 /* course.swift */,
 				D6F9EF0327D5F8E60082F538 /* setting.swift */,
+				13C08F2A27DF1C51000254E5 /* SeCVC.swift */,
+				13C08F2C27DF1C91000254E5 /* FileStr.swift */,
 			);
 			path = MiniChallenge3;
 			sourceTree = "<group>";
@@ -312,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13C08F2B27DF1C51000254E5 /* SeCVC.swift in Sources */,
 				10C43F5E27D5EE8F007BF6F1 /* RequestVC.swift in Sources */,
 				10BD133227C61F490059DCD0 /* ViewController.swift in Sources */,
 				1046071D27D734CD00DA7376 /* ViewControllerGroups.swift in Sources */,
@@ -324,6 +331,7 @@
 				1046071F27D7353700DA7376 /* GroupCollectionViewCell.swift in Sources */,
 				1073F68827C62C720089312C /* homeVC.swift in Sources */,
 				D6F9EF0427D5F8E60082F538 /* setting.swift in Sources */,
+				13C08F2D27DF1C91000254E5 /* FileStr.swift in Sources */,
 				D6F9EF0227D5F8AC0082F538 /* course.swift in Sources */,
 				D6F9EEFC27D5F73E0082F538 /* logoutTableViewCell.swift in Sources */,
 				10C43F6427D5EF19007BF6F1 /* RequestsCell.swift in Sources */,
