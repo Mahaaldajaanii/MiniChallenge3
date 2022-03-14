@@ -10,10 +10,11 @@ import UIKit
 class ViewController: UIViewController , UICollectionViewDelegate, UICollectionViewDataSource , UICollectionViewDelegateFlowLayout{
     
     
-    @IBOutlet weak var edit1: UIButton!
     
-    @IBAction func edit(_ sender: Any) {
-    }
+    
+ 
+
+    @IBOutlet weak var Eidt: UIButton!
     @IBOutlet weak var coll1: UICollectionView!
     
     var dataSource = [info]()
@@ -59,13 +60,13 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
        
         
         name.text = NSLocalizedString("Sara Ahmed", comment: "")
-        Num.text = NSLocalizedString("4 Groups Created ", comment: "")
-        Num.text = NSLocalizedString("5 Joined Groups", comment: "")
+//        Num.text = NSLocalizedString("4 Groups Created ", comment: "")
         bio1.text = NSLocalizedString("In love with technology👩🏻‍💻💞,I’ve been  coding ", comment: "")
         bio2.text = NSLocalizedString("since I was In high school✨.", comment: "")
         location.text = NSLocalizedString("Riyadh,SA", comment: "")
         major.text = NSLocalizedString("Information Tencholgy", comment: "")
-        
+        Eidt.titleLabel?.text = NSLocalizedString("Eidt", comment: "")
+   
     }
   
 
