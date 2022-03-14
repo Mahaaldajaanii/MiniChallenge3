@@ -27,7 +27,7 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     
     var arrInfo2: [info] = [
         info.init(name: NSLocalizedString("Database management", comment: ""), photo: "par3", par: NSLocalizedString("3 Participants", comment: ""), photo2: "Acco"),
-        info.init(name: NSLocalizedString("Security and Policy", comment: ""), photo: "par4", par: NSLocalizedString("4 Participants", comment: ""), photo2: "Acco"),
+        info.init(name: NSLocalizedString("Security and Policy", comment: ""), photo: "par2", par: NSLocalizedString("4 Participants", comment: ""), photo2: "Acco"),
         info.init(name: NSLocalizedString("System Analysis", comment: ""), photo: "par1", par: NSLocalizedString("4 Participants", comment: ""), photo2: "Acco"),
         info.init(name: NSLocalizedString(" Operating System", comment: ""), photo: "par2", par: NSLocalizedString("4 Participants", comment: ""), photo2: "Acco"),
         info.init(name: NSLocalizedString(" Networks Fundamentals", comment: ""), photo: "par4", par: NSLocalizedString("4 Participants", comment: ""), photo2: "Acco")
@@ -60,7 +60,7 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
        
         
         name.text = NSLocalizedString("Sara Ahmed", comment: "")
-//        Num.text = NSLocalizedString("4 Groups Created ", comment: "")
+        Num.text = NSLocalizedString("4 Groups Created ", comment: "")
         bio1.text = NSLocalizedString("In love with technology👩🏻‍💻💞,I’ve been  coding ", comment: "")
         bio2.text = NSLocalizedString("since I was In high school✨.", comment: "")
         location.text = NSLocalizedString("Riyadh,SA", comment: "")
@@ -70,10 +70,7 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     }
   
 
-//    func removeAll() {
-//        dataSource?.removeAll()
-//    }
-    
+
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return dataSource.count
     }
