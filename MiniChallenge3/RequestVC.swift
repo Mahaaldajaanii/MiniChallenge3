@@ -13,19 +13,20 @@ class RequestVC: UIViewController {
     @IBOutlet weak var collection: UICollectionView!
     var model = DescriptionVC()
     
+
     struct Student {
         var image : UIImage?
         var name : String
         var major : String
     }
     
-    var student : [Student] = [Student(image: UIImage(named: "Image2"), name: "Asmaa Saad", major: "Information Technology"), Student(image: UIImage(named: "Image3") , name: "Sara Ahmed", major: "Information Technology"),Student(image:UIImage(named: "Image1") , name: "Nora Faisal", major: "Information Technology"),Student(image:UIImage(named: "Image4") , name: "Nada Salem", major: "Information Technology") ]
+    var student : [Student] = [Student(image: UIImage(named: "Image2"), name:NSLocalizedString("Asmaa Saad", comment: "") , major: NSLocalizedString("Information Tencholgy", comment: "")), Student(image: UIImage(named: "Image3") , name: NSLocalizedString("Shahed Fahad", comment: ""), major: NSLocalizedString("Information Tencholgy", comment: "")),Student(image:UIImage(named: "Image1") , name: NSLocalizedString("Nora Faisal", comment: ""), major: NSLocalizedString("Information Tencholgy", comment: "")),Student(image:UIImage(named: "Image4") , name: NSLocalizedString("Nada Salem", comment: ""), major: NSLocalizedString("Information Tencholgy", comment: "")) ]
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "Requsts"
         collection.delegate = self
         collection.dataSource = self
-        
+      //  Accept.titleLabel = NSLocalizedString("Accept", comment: "")
         
         
         // Do any additional setup after loading the view.

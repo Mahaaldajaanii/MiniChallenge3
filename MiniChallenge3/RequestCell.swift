@@ -59,5 +59,6 @@ class RequestCell: UICollectionViewCell {
     @IBAction func delet(_ sender: Any) {
         delegate?.deletData(indx: (index?.row)!)
     }
+    
 }
 

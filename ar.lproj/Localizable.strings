@@ -25,17 +25,20 @@
 "Riyadh,SA" = "الرياض";
 "Information Tencholgy" = "تقنية معلومات ";
 //Maha
+"Participant"= "المشاركون";
 "Requests"="الطلبات";
 "Accept"="قبول";
 "Delet"="حذف";
 "Description"="الوصف";
 "Sunday"="الأحد";
 "pm"="مساءً";
-"12/6/2022"="١٢/٦/٢٠٢٢";
+"12/6/2022,pm"="١٢/٦/٢٠٢٢، مساءً";
 "2-3"="٢-٣";
-" Central Library ,second floor"="المكتبة المركزية - الدور الثاني-";
-"In this study group we will discuss
- chapter 3 "="سوف تناقش هذه المجموعة الدراسية الفصل الثالث";
+"Central Library ,second floor"="المكتبة المركزية - الدور الثاني-";
+"In this study group we will discuss chapter 3"="سوف تناقش هذه المجموعة الدراسية الفصل الثالث";
 "See more"="المزيد";
-
+"Nora Faisal" = "نوره فيصل";
+"Asmaa Saad" = "أسماء سعد";
+"Shahed Fahad" = "شهد فهد";
+"Nada Salem" = "ندى سالم" ;
 

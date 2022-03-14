@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="vUA-hM-hYC">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="DcU-HE-D52">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
@@ -647,7 +647,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M71-4H-CuU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1080" y="1773"/>
+            <point key="canvasLocation" x="1080" y="1746"/>
         </scene>
         <!--DescriptionVC-->
         <scene sceneID="jvC-2l-VTD">
@@ -846,6 +846,7 @@
                         <outlet property="Image" destination="nv1-TK-8D4" id="TYU-D4-sAB"/>
                         <outlet property="Participant" destination="jqe-yq-CSh" id="AJs-St-R3M"/>
                         <outlet property="Requests" destination="Vg8-6m-AFr" id="ZxJ-1G-Lkx"/>
+                        <outlet property="Requests1" destination="Pij-Ow-EAc" id="wb1-2U-vZO"/>
                         <outlet property="Requestss" destination="Vg8-6m-AFr" id="65M-gf-j1Y"/>
                         <outlet property="chat" destination="vgU-d3-nOm" id="Yhk-ND-g7Z"/>
                         <outlet property="image2" destination="g5M-uH-pJI" id="ZqI-Gz-5zc"/>
@@ -857,7 +858,6 @@
                         <outlet property="text3" destination="z3c-8f-9QN" id="bJU-ua-Dd7"/>
                         <outlet property="text4" destination="oMA-o4-Wou" id="GbM-h6-7Rx"/>
                         <outlet property="text5" destination="ph5-b3-0Jf" id="UsJ-Vq-R1K"/>
-                        <outlet property="text6" destination="ph5-b3-0Jf" id="7to-fY-RbC"/>
                         <outlet property="text7" destination="Etg-bL-DmY" id="vQq-Xq-vG2"/>
                     </connections>
                 </viewController>
@@ -990,7 +990,7 @@
             <objects>
                 <viewController id="nXu-yy-2jA" customClass="ViewControllerGroups" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ogl-YN-ltW">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Ya8-nL-UdO">
@@ -1382,9 +1382,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="mOi-UR-ZFy"/>
         <segue reference="wmO-aE-7F8"/>
-        <segue reference="1vo-Hm-fXW"/>
+        <segue reference="2D1-RX-k1g"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="Hedar" width="970" height="587"/>

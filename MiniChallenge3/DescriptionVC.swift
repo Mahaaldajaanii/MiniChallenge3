@@ -24,7 +24,8 @@ class DescriptionVC: UIViewController {
     @IBOutlet weak var chat: UIImageView!
     @IBOutlet weak var Participant: UILabel!
     @IBOutlet weak var Requests: UILabel!
-    
+
+    @IBOutlet weak var Requests1: UILabel!
     @IBAction func see(_ sender: UIButton) {
     }
     
@@ -51,13 +52,15 @@ class DescriptionVC: UIViewController {
         
         
         
-        text1.text = NSLocalizedString("Software Engineering", comment: "")
+        text1.text = NSLocalizedString("Softwar Engineering", comment: "")
         text2.text = NSLocalizedString("Description", comment: "")
-        text3.text = NSLocalizedString("In this study group we will discuss chapter 3 ", comment: "")
-        text4.text = NSLocalizedString("Sunday 12/6/2022", comment: "")
-        text5.text = NSLocalizedString(" Central Library ,second floor", comment: "")
-        text7.text = NSLocalizedString("2-3 pm", comment: "")
-       
+        text3.text = NSLocalizedString("In this study group we will discuss chapter 3", comment: "")
+        text4.text = NSLocalizedString("Sunday", comment: "")
+        text5.text = NSLocalizedString("Central Library ,second floor", comment: "")
+        text7.text = NSLocalizedString("12/6/2022,pm", comment: "")
+        Participant.text = NSLocalizedString("Participant", comment: "")
+        Requests1.text = NSLocalizedString("Requests", comment: "")
+    
     }
     
 }
