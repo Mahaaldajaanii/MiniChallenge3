@@ -18,8 +18,8 @@ class DescriptionVC: UIViewController {
     @IBOutlet weak var image3: UIImageView!
     @IBOutlet weak var image4: UIImageView!
     @IBOutlet weak var text5: UILabel!
-    @IBOutlet weak var text6: UILabel!
     @IBOutlet weak var participantCollection: UICollectionView!
+    @IBOutlet weak var text7: UILabel!
     @IBOutlet weak var Requestss: UICollectionView!
     @IBOutlet weak var chat: UIImageView!
     @IBOutlet weak var Participant: UILabel!
@@ -50,6 +50,14 @@ class DescriptionVC: UIViewController {
         Requestss.dataSource = self
         
         
+        
+        text1.text = NSLocalizedString("Software Engineering", comment: "")
+        text2.text = NSLocalizedString("Description", comment: "")
+        text3.text = NSLocalizedString("In this study group we will discuss chapter 3 ", comment: "")
+        text4.text = NSLocalizedString("Sunday 12/6/2022", comment: "")
+        text5.text = NSLocalizedString(" Central Library ,second floor", comment: "")
+        text7.text = NSLocalizedString("2-3 pm", comment: "")
+       
     }
     
 }
