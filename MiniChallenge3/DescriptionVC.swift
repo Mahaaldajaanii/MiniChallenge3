@@ -18,6 +18,7 @@ class DescriptionVC: UIViewController {
     @IBOutlet weak var image3: UIImageView!
     @IBOutlet weak var image4: UIImageView!
     @IBOutlet weak var text5: UILabel!
+    @IBOutlet weak var text6: UILabel!
     @IBOutlet weak var participantCollection: UICollectionView!
     @IBOutlet weak var text7: UILabel!
     @IBOutlet weak var Requestss: UICollectionView!
@@ -25,6 +26,7 @@ class DescriptionVC: UIViewController {
     @IBOutlet weak var Participant: UILabel!
     @IBOutlet weak var Requests: UILabel!
 
+    @IBOutlet weak var see: UIButton!
     @IBOutlet weak var Requests1: UILabel!
     @IBAction func see(_ sender: UIButton) {
     }
@@ -58,8 +60,10 @@ class DescriptionVC: UIViewController {
         text4.text = NSLocalizedString("Sunday", comment: "")
         text5.text = NSLocalizedString("Central Library ,second floor", comment: "")
         text7.text = NSLocalizedString("12/6/2022,pm", comment: "")
+        text6.text = NSLocalizedString("Softwar Engineering", comment: "")
         Participant.text = NSLocalizedString("Participant", comment: "")
         Requests1.text = NSLocalizedString("Requests", comment: "")
+       see.setTitle(NSLocalizedString("See more", comment: ""), for: .normal)
     
     }
     

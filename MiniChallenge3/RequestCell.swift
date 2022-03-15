@@ -24,12 +24,10 @@ class RequestCell: UICollectionViewCell {
     @IBOutlet weak var name: UILabel!
     
     
-    
-    
-    
-    
     @IBOutlet weak var accept: UIButton!
-    @IBOutlet weak var delet: UIButton!
+    @IBOutlet weak var delete: UIButton!
+
+   
     @IBOutlet weak var major: UILabel!
     
     var index: IndexPath?
@@ -41,6 +39,10 @@ class RequestCell: UICollectionViewCell {
     }
     
     var student : [Student] = [Student(image: UIImage(named: "Image2"), name: "Asmaa Saad", major: "Information Technology"), Student(image: UIImage(named: "Image3") , name: "Sara Ahmed", major: "Information Technology"),Student(image:UIImage(named: "Image1") , name: "Nora Faisal", major: "Information Technology") ]
+  
+  
+
+
     
     
   //  weak var delegate :ShowVC?
