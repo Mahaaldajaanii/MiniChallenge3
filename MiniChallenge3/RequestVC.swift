@@ -29,6 +29,7 @@ class RequestVC: UIViewController {
         self.title = "Requsts"
         collection.delegate = self
         collection.dataSource = self
+        title = NSLocalizedString("Requests", comment: "")
         
 //        accept.setTitle("Test", for: .normal)
 //            .setTitle(NSLocalizedString("Accept", comment: ""))
