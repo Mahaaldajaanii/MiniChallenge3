@@ -15,11 +15,11 @@ class logoutViewController: UIViewController , UITableViewDelegate, UITableViewD
     
     let settingArray : [setting] =
     [
-        setting(image: UIImage(systemName: "lock")!, tilte: "Privacy"),
-        setting(image: UIImage(systemName: "hand.raised")!, tilte: "Accessibilty"),
-        setting(image: UIImage(systemName: "globe")!, tilte: "Language"),
-        setting(image: UIImage(systemName: "shield.righthalf.filled")!, tilte: "Security"),
-        setting(image: UIImage(systemName: "info.circle")!, tilte: "About us")
+        setting(image: UIImage(systemName: "lock")!, tilte: NSLocalizedString("Privacy", comment: "")),
+        setting(image: UIImage(systemName: "hand.raised")!, tilte: NSLocalizedString("Accessibilty", comment: "")),
+        setting(image: UIImage(systemName: "globe")!, tilte: NSLocalizedString("Language", comment: "")),
+        setting(image: UIImage(systemName: "shield.righthalf.filled")!, tilte: NSLocalizedString("Security", comment: "")),
+        setting(image: UIImage(systemName: "info.circle")!, tilte: NSLocalizedString( "About us", comment: ""))
     ]
     
     
@@ -27,6 +27,7 @@ class logoutViewController: UIViewController , UITableViewDelegate, UITableViewD
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        btnlogout.setTitle(NSLocalizedString("Logout", comment: ""), for: .normal)
         
         settingtableview.delegate = self
         settingtableview.dataSource = self

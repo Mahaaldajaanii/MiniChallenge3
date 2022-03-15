@@ -10,21 +10,24 @@ import UIKit
 class coursesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var navigation: UITableView!
     @IBOutlet weak var btnsettings: UIBarButtonItem!
     //    @IBOutlet weak var navtitle: UINavigationItem!
     
     let cr = [
-        course(date: "22/3/2022", studygr: "Study Group", courseName: "Software engineering"),
-        course(date: "19/3/2022", studygr: "Study Group", courseName: "Software engineering"),
-        course(date: "5/3/2022", studygr: "Study Group", courseName: "Computer siences"),
-        course(date: "22/2/2022", studygr: "Study Group", courseName: "Software engineering"),
-        course(date: "16/2/2022", studygr: "Study Group", courseName: "Software engineering"),
-        course(date: "8/2/2022", studygr: "Study Group", courseName: "Computer siences")
+        course(date: NSLocalizedString("22/3/2022", comment: ""), studygr: NSLocalizedString("Study Groups", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "") ),
+        course(date: NSLocalizedString("19/3/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "")),
+        course(date: NSLocalizedString("5/3/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Computer siences", comment: "")),
+        course(date: NSLocalizedString("22/2/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "")),
+        course(date: NSLocalizedString("16/2/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "")),
+        course(date: NSLocalizedString("8/2/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Computer siences", comment: ""))
     ]
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        navigationItem.title = "Notifications"
+        
+        self.title = NSLocalizedString("Notifications", comment: "")
         
 
     }

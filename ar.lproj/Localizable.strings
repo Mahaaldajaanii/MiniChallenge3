@@ -43,6 +43,9 @@
 "Asmaa Saad" = "أسماء سعد";
 "Shahed Fahad" = "شهد فهد";
 "Nada Salem" = "ندى سالم" ;
+
+//aljohara
+
 "Privacy"="الخصوصية";
 "Accessibilty"="إمكانية الوصول";
 "Language"="تغيير اللغة";
@@ -56,4 +59,5 @@
 "8/2/2022"="٨/٢/٢٠٢٢";
 "Study Groups"=" المجموعات الدراسية";
 "Computer siences"="علوم حاسب";
-
+"Notifications"="الإشعارات";
+"Logout"="تسجيل خروج";
