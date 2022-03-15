@@ -25,7 +25,6 @@ class DescriptionVC: UIViewController {
     @IBOutlet weak var chat: UIImageView!
     @IBOutlet weak var Participant: UILabel!
     @IBOutlet weak var Requests: UILabel!
-
     @IBOutlet weak var see: UIButton!
     @IBOutlet weak var Requests1: UILabel!
     @IBAction func see(_ sender: UIButton) {
