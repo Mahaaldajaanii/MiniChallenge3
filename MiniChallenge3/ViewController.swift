@@ -51,8 +51,8 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     @IBOutlet weak var Num: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
-        sara.layer.cornerRadius = sara.frame.size.width/2
-        sara.clipsToBounds = true
+//        sara.layer.cornerRadius = sara.frame.size.width/2
+//        sara.clipsToBounds = true
         // Do any additional setup after loading the view.
         coll1.delegate = self
         coll1.dataSource = self
