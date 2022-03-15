@@ -1131,10 +1131,13 @@
                                 <rect key="frame" x="0.0" y="-89" width="414" height="294"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="saraPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="oJa-rF-ywg">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sara" translatesAutoresizingMaskIntoConstraints="NO" id="oJa-rF-ywg">
                                 <rect key="frame" x="12" y="109" width="99" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="tintColor" red="0.90588235859999999" green="0.78823530669999997" blue="0.50196081400000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="99" id="JnN-Dd-3fw"/>
+                                    <constraint firstAttribute="height" constant="100" id="iFN-xH-e7x"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sara Ahmed" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiN-qG-drZ">
                                 <rect key="frame" x="16" y="215" width="158" height="23"/>
@@ -1346,8 +1349,10 @@
                             <constraint firstItem="AzM-85-aKp" firstAttribute="trailing" secondItem="I4f-Ne-2c0" secondAttribute="trailing" constant="34" id="6mf-xB-Xr3"/>
                             <constraint firstItem="fW0-jj-xkN" firstAttribute="top" secondItem="ljQ-Iy-n36" secondAttribute="bottom" constant="9" id="AfS-qP-itX"/>
                             <constraint firstItem="fW0-jj-xkN" firstAttribute="leading" secondItem="B0B-lI-lMR" secondAttribute="trailing" constant="29" id="EBH-xe-9rc"/>
+                            <constraint firstItem="oJa-rF-ywg" firstAttribute="top" secondItem="AzM-85-aKp" secondAttribute="top" constant="65" id="H8n-pN-d1h"/>
                             <constraint firstItem="eoj-jl-eXX" firstAttribute="top" secondItem="Bax-WT-dOw" secondAttribute="bottom" constant="8" id="HOV-44-2TN"/>
                             <constraint firstItem="AzM-85-aKp" firstAttribute="trailing" secondItem="q1x-Oo-ayH" secondAttribute="trailing" constant="26" id="Hxg-UC-D8L"/>
+                            <constraint firstItem="oJa-rF-ywg" firstAttribute="leading" secondItem="AzM-85-aKp" secondAttribute="leading" constant="12" id="HzX-iN-FbT"/>
                             <constraint firstItem="AzM-85-aKp" firstAttribute="trailing" secondItem="Bax-WT-dOw" secondAttribute="trailing" constant="12" id="IUv-a0-HhA"/>
                             <constraint firstItem="Bax-WT-dOw" firstAttribute="top" secondItem="q1x-Oo-ayH" secondAttribute="bottom" constant="35" id="Je2-Oy-ihg"/>
                             <constraint firstItem="F5A-QD-zO0" firstAttribute="top" secondItem="AzM-85-aKp" secondAttribute="top" constant="255" id="L5h-BW-wQ6"/>
@@ -1419,7 +1424,6 @@
         <image name="im2" width="122" height="90"/>
         <image name="lock" width="17" height="20"/>
         <image name="par2" width="103" height="36"/>
-        <image name="saraPhoto" width="99" height="100"/>
         <image name="theme" width="741" height="512"/>
         <namedColor name="Background">
             <color red="0.95375174283981323" green="0.95375174283981323" blue="0.95375174283981323" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
