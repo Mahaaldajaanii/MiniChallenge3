@@ -60,7 +60,7 @@ class ViewControllerGroups: UIViewController, UICollectionViewDelegate, UICollec
            P: UIImage(named:"Participants3")!,
            PN: NSLocalizedString("11 Participants", comment: ""),
            See: "See More"),
-        SG(SGN:NSLocalizedString("Operating system", comment: "") ,
+        SG(SGN:NSLocalizedString(" Operating System", comment: "") ,
            MN: NSLocalizedString("Information Technology", comment: ""),
            P: UIImage(named:"Participants1")!,
            PN: NSLocalizedString("33 Participants", comment: ""),
@@ -118,7 +118,7 @@ class ViewControllerGroups: UIViewController, UICollectionViewDelegate, UICollec
         
         search = arrSG
         
-        
+       
     }
     
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
@@ -148,12 +148,18 @@ class ViewControllerGroups: UIViewController, UICollectionViewDelegate, UICollec
         return arrSG.count
 
         }
+        
+     
     }
     
     func collectionView(_ collectionView2: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
         
         let cell2 = collectionView2.dequeueReusableCell(withReuseIdentifier: "SGroupCell", for: indexPath) as! SGCollectionViewCell
+        
+        cell2.SeeMore.setTitle(NSLocalizedString("", comment: ""), for: .normal)
+        cell2.SeeMore.setTitle(NSLocalizedString("", comment: ""), for: .selected)
+
         if searchActive{
             
             let data2 = search[indexPath.row]
@@ -165,7 +171,7 @@ class ViewControllerGroups: UIViewController, UICollectionViewDelegate, UICollec
         else {
             let data2 = arrSG[indexPath.row]
             cell2.setupCell2(SGN: data2.SGN, MN: data2.MN, P: data2.P, PN: data2.PN, See: data2.See)
-            
+           
         }
         
         return cell2

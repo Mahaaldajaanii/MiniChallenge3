@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PGD-Su-3G8">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -602,15 +602,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="Kov-RX-t2D"/>
                     <connections>
+                        <outlet property="Hours" destination="UvW-Xy-nj9" id="4Um-qc-2Xj"/>
                         <outlet property="IT" destination="kjV-EM-Hq8" id="13z-Y5-DjH"/>
+                        <outlet property="Minutes" destination="1Q4-KQ-HZ9" id="SJs-zO-5Cw"/>
                         <outlet property="PNU" destination="22e-Xv-SJo" id="tK8-Pr-BMD"/>
                         <outlet property="PNUlogo" destination="VCV-zn-9rX" id="FEv-sG-0Kk"/>
+                        <outlet property="Seconds" destination="6Qd-os-GZO" id="Z9F-OH-Bfh"/>
+                        <outlet property="SeeAll" destination="goC-ri-3Gl" id="hb3-XJ-aso"/>
                         <outlet property="StudyGroups" destination="gaq-3m-cgt" id="zST-iH-HCd"/>
                         <outlet property="collectionView" destination="o0T-Y7-o4t" id="TSr-vB-OBS"/>
                         <outlet property="hoursLabel" destination="Vue-lM-qfF" id="C5Q-zj-tWX"/>
                         <outlet property="minutesLabel" destination="Pvs-kA-NH6" id="adc-Vu-ORy"/>
                         <outlet property="profileImage" destination="W7V-JX-wC8" id="4j8-XG-OWB"/>
+                        <outlet property="ready" destination="zUZ-8i-07k" id="1ML-Av-Qnp"/>
                         <outlet property="secLabel" destination="LKK-fz-Jk5" id="ExR-SU-5mv"/>
+                        <outlet property="studentName" destination="22e-Xv-SJo" id="vin-KA-Hq3"/>
                         <outlet property="timerView" destination="5cx-uN-bGf" id="WGx-FK-I0Z"/>
                     </connections>
                 </viewController>
@@ -683,7 +689,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2o-Dd-hn5">
-                                                    <rect key="frame" x="64" y="139" width="118" height="23"/>
+                                                    <rect key="frame" x="68" y="135.5" width="94" height="26.5"/>
                                                     <state key="normal" title="Button"/>
                                                     <buttonConfiguration key="configuration" style="plain">
                                                         <backgroundConfiguration key="background"/>
@@ -700,21 +706,20 @@
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Y2o-Dd-hn5" firstAttribute="top" secondItem="XAV-ct-LTV" secondAttribute="bottom" constant="11" id="008-EE-4oO"/>
                                                 <constraint firstItem="kot-al-D1I" firstAttribute="top" secondItem="N1B-6J-mUL" secondAttribute="bottom" constant="8" symbolic="YES" id="5Jr-IS-POe"/>
+                                                <constraint firstItem="Y2o-Dd-hn5" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="68" id="5mP-zH-joh"/>
                                                 <constraint firstItem="N1B-6J-mUL" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="8" id="Bo3-O1-Yea"/>
                                                 <constraint firstItem="mm5-PD-6fx" firstAttribute="top" secondItem="kot-al-D1I" secondAttribute="bottom" constant="16" id="Cbp-HR-4fR"/>
+                                                <constraint firstAttribute="bottom" secondItem="Y2o-Dd-hn5" secondAttribute="bottom" constant="8" id="EGb-C3-D6C"/>
                                                 <constraint firstItem="mm5-PD-6fx" firstAttribute="top" secondItem="kot-al-D1I" secondAttribute="bottom" constant="16" id="Ksn-eu-K8A"/>
                                                 <constraint firstItem="XAV-ct-LTV" firstAttribute="top" secondItem="mm5-PD-6fx" secondAttribute="bottom" constant="1" id="LfR-SQ-As7"/>
                                                 <constraint firstItem="XAV-ct-LTV" firstAttribute="top" secondItem="mm5-PD-6fx" secondAttribute="bottom" constant="1" id="SEO-4g-GNf"/>
-                                                <constraint firstItem="Y2o-Dd-hn5" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="64" id="Sly-af-8Iw"/>
-                                                <constraint firstAttribute="trailing" secondItem="Y2o-Dd-hn5" secondAttribute="trailing" constant="-12" id="YcD-xq-Nwb"/>
+                                                <constraint firstAttribute="trailing" secondItem="Y2o-Dd-hn5" secondAttribute="trailing" constant="8" id="UcK-Ff-Lmc"/>
                                                 <constraint firstItem="kot-al-D1I" firstAttribute="top" secondItem="N1B-6J-mUL" secondAttribute="bottom" constant="8" symbolic="YES" id="iJi-Qb-MsP"/>
                                                 <constraint firstAttribute="trailing" secondItem="N1B-6J-mUL" secondAttribute="trailing" constant="8" id="jy9-V8-72Z"/>
                                                 <constraint firstItem="mm5-PD-6fx" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="8" id="kY5-ZH-Au2"/>
                                                 <constraint firstAttribute="trailing" secondItem="mm5-PD-6fx" secondAttribute="trailing" constant="95" id="lN2-4K-ssh"/>
                                                 <constraint firstAttribute="trailing" secondItem="XAV-ct-LTV" secondAttribute="trailing" constant="73" id="pgE-8T-mCp"/>
-                                                <constraint firstItem="Y2o-Dd-hn5" firstAttribute="bottom" secondItem="haq-WD-ey4" secondAttribute="bottomMargin" id="r4R-Yn-2AP"/>
                                                 <constraint firstItem="XAV-ct-LTV" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="8" id="sw9-Ft-usS"/>
                                                 <constraint firstItem="N1B-6J-mUL" firstAttribute="top" secondItem="haq-WD-ey4" secondAttribute="top" constant="8" id="wWr-0b-qRX"/>
                                                 <constraint firstItem="kot-al-D1I" firstAttribute="leading" secondItem="haq-WD-ey4" secondAttribute="leading" constant="8" id="x3s-83-Tcz"/>
@@ -750,7 +755,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asM-XL-cMA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1407" y="1633"/>
+            <point key="canvasLocation" x="-1407.2463768115942" y="1632.5892857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="5pt-Ms-dcv">
