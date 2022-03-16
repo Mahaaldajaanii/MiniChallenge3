@@ -1398,7 +1398,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYE-EF-qdc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6076.811594202899" y="29.464285714285712"/>
+            <point key="canvasLocation" x="5065" y="779"/>
         </scene>
         <!--Requests-->
         <scene sceneID="7Ok-lW-JsD">
@@ -1427,7 +1427,7 @@
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="acceptt" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uY-tg-GaR">
-                                                    <rect key="frame" x="47" y="109" width="132" height="30"/>
+                                                    <rect key="frame" x="63" y="113" width="102" height="22"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="132" id="LVf-ov-WSr"/>
                                                         <constraint firstAttribute="height" constant="30" id="Ous-Hz-Or1"/>
@@ -1439,21 +1439,6 @@
                                                     </buttonConfiguration>
                                                     <connections>
                                                         <action selector="accept:" destination="wfl-E8-IfR" eventType="touchUpInside" id="OMO-DH-BbZ"/>
-                                                    </connections>
-                                                </button>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-hQ-GIA">
-                                                    <rect key="frame" x="194" y="109" width="132" height="30"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="width" constant="132" id="63v-k8-2jr"/>
-                                                        <constraint firstAttribute="height" constant="30" id="SS8-FK-gYN"/>
-                                                    </constraints>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled" title="Delete" cornerStyle="capsule">
-                                                        <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                        <color key="baseBackgroundColor" red="0.986085565" green="0.9291650696" blue="0.74997508489999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                                    </buttonConfiguration>
-                                                    <connections>
-                                                        <action selector="delet:" destination="wfl-E8-IfR" eventType="touchUpInside" id="lLi-zz-M2B"/>
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 2" translatesAutoresizingMaskIntoConstraints="NO" id="9XT-dp-pDX">
@@ -1483,6 +1468,21 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-hQ-GIA">
+                                                    <rect key="frame" x="191" y="113" width="102" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="132" id="63v-k8-2jr"/>
+                                                        <constraint firstAttribute="height" constant="30" id="SS8-FK-gYN"/>
+                                                    </constraints>
+                                                    <state key="normal" title="Button"/>
+                                                    <buttonConfiguration key="configuration" style="filled" title="Delete" cornerStyle="capsule">
+                                                        <color key="baseForegroundColor" systemColor="labelColor"/>
+                                                        <color key="baseBackgroundColor" red="0.986085565" green="0.9291650696" blue="0.74997508489999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                    </buttonConfiguration>
+                                                    <connections>
+                                                        <action selector="delet:" destination="wfl-E8-IfR" eventType="touchUpInside" id="lLi-zz-M2B"/>
+                                                    </connections>
+                                                </button>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="3uY-tg-GaR" firstAttribute="top" secondItem="9XT-dp-pDX" secondAttribute="bottom" constant="21" id="3QC-dv-PRi"/>
@@ -1537,7 +1537,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpn-hd-kXQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4652" y="62"/>
+            <point key="canvasLocation" x="3637.68115942029" y="811.60714285714278"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jmd-em-yGX">
@@ -1558,7 +1558,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUA-2q-4A8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3814" y="62"/>
+            <point key="canvasLocation" x="2801" y="812"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
