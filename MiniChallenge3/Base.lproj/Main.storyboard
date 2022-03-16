@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="whj-i6-GJJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PGD-Su-3G8">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
@@ -899,19 +899,16 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gQq-jj-tyH">
-                                                    <rect key="frame" x="251" y="103" width="97" height="28"/>
+                                                    <rect key="frame" x="242" y="103" width="116" height="28"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" constant="28" id="cec-yS-sU6"/>
-                                                        <constraint firstAttribute="width" constant="97" id="zL6-ow-xvm"/>
+                                                        <constraint firstAttribute="width" constant="116" id="C7L-AP-XC4"/>
+                                                        <constraint firstAttribute="height" constant="28" id="dj3-5u-ml6"/>
                                                     </constraints>
-                                                    <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" title="See More">
-                                                        <fontDescription key="titleFontDescription" style="UICTFontTextStyleCaption1"/>
-                                                        <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                    </buttonConfiguration>
-                                                    <connections>
-                                                        <action selector="seeMore:" destination="hwY-F8-E2b" eventType="touchUpInside" id="Akt-yr-bOt"/>
-                                                    </connections>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                    <state key="normal" title="See More">
+                                                        <color key="titleColor" systemColor="labelColor"/>
+                                                    </state>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software  Engineering" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-gm-iuJ">
                                                     <rect key="frame" x="35" y="21" width="150.5" height="18"/>
@@ -932,25 +929,27 @@
                                                 </imageView>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="gQq-jj-tyH" secondAttribute="trailing" constant="13" id="0gK-rG-qfL"/>
                                                 <constraint firstItem="rcq-j2-gLq" firstAttribute="top" secondItem="qbC-Nz-1m1" secondAttribute="top" constant="21" id="0k2-ip-Jmc"/>
                                                 <constraint firstItem="vMs-aV-ErD" firstAttribute="top" secondItem="8w9-gm-iuJ" secondAttribute="bottom" constant="28" id="3da-nX-GoS"/>
                                                 <constraint firstItem="rcq-j2-gLq" firstAttribute="leading" secondItem="8w9-gm-iuJ" secondAttribute="trailing" constant="79.5" id="3eS-fW-XJs"/>
                                                 <constraint firstItem="vMs-aV-ErD" firstAttribute="leading" secondItem="qbC-Nz-1m1" secondAttribute="leading" constant="37" id="4mc-sA-ZNx"/>
                                                 <constraint firstAttribute="trailing" secondItem="vMs-aV-ErD" secondAttribute="trailing" constant="224" id="5Ea-Bj-cBL"/>
-                                                <constraint firstAttribute="trailing" secondItem="gQq-jj-tyH" secondAttribute="trailing" constant="23" id="ASN-cg-tNh"/>
                                                 <constraint firstAttribute="trailing" secondItem="PSn-0U-nB6" secondAttribute="trailing" constant="242.5" id="KUb-j1-dRX"/>
-                                                <constraint firstItem="gQq-jj-tyH" firstAttribute="top" secondItem="rcq-j2-gLq" secondAttribute="bottom" constant="58" id="O1r-8g-OLM"/>
-                                                <constraint firstItem="gQq-jj-tyH" firstAttribute="leading" secondItem="PSn-0U-nB6" secondAttribute="trailing" constant="122.5" id="jH2-DA-hQu"/>
+                                                <constraint firstAttribute="bottom" secondItem="gQq-jj-tyH" secondAttribute="bottom" constant="10" id="Q2o-Xy-3r0"/>
+                                                <constraint firstItem="gQq-jj-tyH" firstAttribute="top" secondItem="rcq-j2-gLq" secondAttribute="bottom" constant="58" id="cZV-83-FaN"/>
                                                 <constraint firstItem="8w9-gm-iuJ" firstAttribute="leading" secondItem="qbC-Nz-1m1" secondAttribute="leading" constant="35" id="lvI-Wh-wDr"/>
                                                 <constraint firstItem="PSn-0U-nB6" firstAttribute="top" secondItem="vMs-aV-ErD" secondAttribute="bottom" constant="9" id="mwh-XZ-WJ6"/>
                                                 <constraint firstItem="PSn-0U-nB6" firstAttribute="leading" secondItem="qbC-Nz-1m1" secondAttribute="leading" constant="45" id="oHM-YD-LoM"/>
                                                 <constraint firstItem="8w9-gm-iuJ" firstAttribute="top" secondItem="qbC-Nz-1m1" secondAttribute="top" constant="21" id="sPm-ZU-0Nt"/>
                                                 <constraint firstAttribute="trailing" secondItem="rcq-j2-gLq" secondAttribute="trailing" constant="32" id="sVL-3a-dFh"/>
+                                                <constraint firstItem="gQq-jj-tyH" firstAttribute="leading" secondItem="PSn-0U-nB6" secondAttribute="trailing" constant="113.5" id="y0m-od-nKk"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <size key="customSize" width="371" height="141"/>
                                         <connections>
+                                            <outlet property="SeeMore" destination="gQq-jj-tyH" id="OTE-nr-9It"/>
                                             <outlet property="name" destination="8w9-gm-iuJ" id="Qok-jg-QWn"/>
                                             <outlet property="par1" destination="PSn-0U-nB6" id="bvz-MF-OpJ"/>
                                             <outlet property="photo1" destination="vMs-aV-ErD" id="6g9-3z-lt3"/>
@@ -1026,6 +1025,7 @@
                         <outlet property="major" destination="q1x-Oo-ayH" id="6lE-1x-wuO"/>
                         <outlet property="name" destination="FiN-qG-drZ" id="5ye-Ix-Rmp"/>
                         <outlet property="sara" destination="oJa-rF-ywg" id="oJg-xB-8ly"/>
+                        <outlet property="segmentControl" destination="Bax-WT-dOw" id="B7y-1D-MTs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zst-af-NCa" sceneMemberID="firstResponder"/>

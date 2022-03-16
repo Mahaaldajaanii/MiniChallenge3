@@ -11,7 +11,7 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     
     
     
-    
+    @IBOutlet weak var segmentControl: UISegmentedControl!
  
 
     @IBOutlet weak var Eidt: UIButton!
@@ -51,6 +51,13 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
     @IBOutlet weak var Num: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        segmentControl.setTitle(NSLocalizedString("Created", comment: ""),forSegmentAt: 0)
+        segmentControl.setTitle(NSLocalizedString("Joined", comment: ""),forSegmentAt: 1)
+
 //        sara.layer.cornerRadius = sara.frame.size.width/2
 //        sara.clipsToBounds = true
         // Do any additional setup after loading the view.
@@ -90,6 +97,8 @@ class ViewController: UIViewController , UICollectionViewDelegate, UICollectionV
         cell.par1.text = dataSource[indexPath.row].par
         cell.photo3.image = UIImage(named: dataSource[indexPath.row].photo2)
         cell.par1.text = dataSource[indexPath.row].par
+        cell.SeeMore.setTitle(NSLocalizedString("see More", comment: ""), for: .normal)
+  cell.SeeMore.setTitle(NSLocalizedString("see More", comment: ""), for: .selected)
                 return cell
            
     }

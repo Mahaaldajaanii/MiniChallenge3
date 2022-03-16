@@ -12,8 +12,7 @@ class SeCVC: UICollectionViewCell {
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var par1: UILabel!
     @IBOutlet weak var photo1: UIImageView!
-    @IBAction func seeMore(_ sender: Any) {
-    }
-
+    @IBOutlet weak var SeeMore: UIButton!
+    
 }
 
