@@ -17,16 +17,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Logo-1" translatesAutoresizingMaskIntoConstraints="NO" id="QUy-Ri-e8i">
-                                <rect key="frame" x="-25" y="280" width="464" height="337"/>
+                                <rect key="frame" x="36" y="318" width="342" height="260"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="QUy-Ri-e8i" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="-25" id="9qF-ON-wmc"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QUy-Ri-e8i" secondAttribute="bottom" constant="245" id="DIC-An-Kl9"/>
-                            <constraint firstAttribute="trailing" secondItem="QUy-Ri-e8i" secondAttribute="trailing" constant="-25" id="VYP-4d-qtN"/>
-                            <constraint firstItem="QUy-Ri-e8i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="236" id="mdW-fm-ndY"/>
+                            <constraint firstItem="QUy-Ri-e8i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="36" id="6tf-I4-90x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="QUy-Ri-e8i" secondAttribute="bottom" constant="284" id="LIO-IO-Qar"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="QUy-Ri-e8i" secondAttribute="trailing" constant="36" id="OUB-7X-Tqy"/>
+                            <constraint firstItem="QUy-Ri-e8i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="274" id="zTx-Gu-Lwh"/>
                         </constraints>
                     </view>
                 </viewController>
