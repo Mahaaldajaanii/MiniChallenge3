@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -938,6 +938,9 @@
                                                     <state key="normal" title="See More">
                                                         <color key="titleColor" systemColor="labelColor"/>
                                                     </state>
+                                                    <connections>
+                                                        <segue destination="HPE-H6-hZj" kind="show" id="C5A-9G-INI"/>
+                                                    </connections>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Software  Engineering" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8w9-gm-iuJ">
                                                     <rect key="frame" x="35" y="21" width="150.5" height="18"/>
@@ -1083,10 +1086,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="31s-y2-Z5I">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="862"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="813"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gA4-AT-Al6">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900.5"/>
+                                        <rect key="frame" x="0.0" y="-88" width="414" height="900.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="24i-re-4h4">
                                                 <rect key="frame" x="20" y="350.5" width="382" height="159"/>
@@ -1177,7 +1180,7 @@
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="u49-5V-aGF">
-                                                <rect key="frame" x="8" y="557.5" width="388" height="194"/>
+                                                <rect key="frame" x="8" y="557.5" width="388" height="193.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3ua-BB-UwO">
                                                         <rect key="frame" x="0.0" y="0.0" width="388" height="90"/>
@@ -1240,7 +1243,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="b72-b6-2WU">
-                                                        <rect key="frame" x="0.0" y="101" width="388" height="93"/>
+                                                        <rect key="frame" x="0.0" y="101" width="388" height="92.5"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBi-ND-RWF">
                                                                 <rect key="frame" x="0.0" y="0.0" width="82" height="20.5"/>
@@ -1249,10 +1252,10 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cpd-rE-9eH">
-                                                                <rect key="frame" x="0.0" y="20.5" width="388" height="72.5"/>
+                                                                <rect key="frame" x="0.0" y="20.5" width="388" height="72"/>
                                                                 <subviews>
                                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3yy-4u-zry">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="285.5" height="72.5"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="285.5" height="72"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="314-iS-8xX">
                                                                             <size key="itemSize" width="57" height="48"/>
@@ -1262,7 +1265,7 @@
                                                                         </collectionViewFlowLayout>
                                                                         <cells>
                                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="nWG-cw-AeI" customClass="RequestsCell" customModule="MiniChallenge3" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="12.5" width="57" height="48"/>
+                                                                                <rect key="frame" x="0.0" y="12" width="57" height="48"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mcI-VY-1L3">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="57" height="48"/>
@@ -1375,7 +1378,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OYE-EF-qdc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8704.3478260869579" y="778.79464285714278"/>
+            <point key="canvasLocation" x="3945" y="1756"/>
         </scene>
         <!--Requests-->
         <scene sceneID="7Ok-lW-JsD">
@@ -1386,7 +1389,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z8s-ld-sFd">
-                                <rect key="frame" x="20" y="44" width="374" height="818"/>
+                                <rect key="frame" x="20" y="88" width="374" height="725"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <color key="tintColor" name="Background"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oNS-9Z-ZJS">
@@ -1514,13 +1517,14 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cpn-hd-kXQ" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7278.2608695652179" y="811.60714285714278"/>
+            <point key="canvasLocation" x="3136" y="1756"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="jmd-em-yGX">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="whj-i6-GJJ" sceneMemberID="viewController">
                     <toolbarItems/>
+                    <navigationItem key="navigationItem" id="jRT-Gh-KyF"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="CgM-sN-GNI">
                         <rect key="frame" x="0.0" y="44" width="414" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -1535,7 +1539,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vUA-2q-4A8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6440.579710144928" y="811.60714285714278"/>
+            <point key="canvasLocation" x="2303" y="1757"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hFQ-uD-LIo">
@@ -2076,6 +2080,7 @@
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="psR-bf-uJz"/>
+        <segue reference="C5A-9G-INI"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="By 2" width="150" height="150"/>
