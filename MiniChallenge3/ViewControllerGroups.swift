@@ -157,8 +157,8 @@ class ViewControllerGroups: UIViewController, UICollectionViewDelegate, UICollec
         
         let cell2 = collectionView2.dequeueReusableCell(withReuseIdentifier: "SGroupCell", for: indexPath) as! SGCollectionViewCell
         
-        cell2.SeeMore.setTitle(NSLocalizedString("", comment: ""), for: .normal)
-        cell2.SeeMore.setTitle(NSLocalizedString("", comment: ""), for: .selected)
+        cell2.SeeMore.setTitle(NSLocalizedString("See More", comment: ""), for: .normal)
+        cell2.SeeMore.setTitle(NSLocalizedString("See More", comment: ""), for: .selected)
 
         if searchActive{
             

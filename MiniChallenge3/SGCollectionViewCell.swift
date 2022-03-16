@@ -23,6 +23,7 @@ class SGCollectionViewCell: UICollectionViewCell {
         Participants.image = P
         ParticipantsNumber.text = PN
         SeeMore.buttonType
+    
 }
 }
 

@@ -185,9 +185,6 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
         
     }
     
-    
-    
-    
 }
 
 
