@@ -61,3 +61,51 @@
 "Computer siences"="علوم حاسب";
 "Notifications"="الإشعارات";
 "Logout"="تسجيل خروج";
+
+
+//Shahad
+"Sun 12/6/2022" = "الأحد ٢٠٢٢/٦/١٢";
+"2-3 PM" = "٢-٣ مساء" ;
+
+"Tue 14/6/2022" = "الثلاثاء ٢٠٢٢/٦/١٤";
+"8-10 AM" = "٨-١٠ صباح";
+
+"Wed 15/6/2022" = "الأربعاء ٢٠٢٢/٦/١٥";
+"12-2 PM" = "١٢-٢ مساء";
+"9-11 AM" = "٩-١١ صباح";
+
+"Study Groups"="المجموعات الدراسية";
+"See All" = "الجميع";
+
+"Ready for next study group?" = "جاهز للمجموعة الدراسية القادمة؟";
+
+"Hours"="ساعات";
+"Minutes"="دقائق";
+"Seconds"="ثواني";
+
+"8 Participants" = "٨ مشاركين";
+"12 Participants" = "١٢ مشارك";
+"16 Participants" = "١٦ مشارك";
+"21 Participants" = "٢١ مشارك";
+"14 Participants" = "١٤ مشارك";
+"26 Participants" = "٢٦ مشارك";
+"6 Participants" = "٦ مشاركين";
+"18 Participants" = "١٨ مشارك";
+"11 Participants" = "١١ مشارك";
+"33 Participants" = "٣٣ مشارك";
+"7 Participants" = "٧ مشاركين";
+"23 Participants" = "٢٣ مشارك";
+"3 Participants" = "٣ مشاركين";
+"2 Participants" = "٢ مشاركين";
+"7 Participants" = "٧ مشاركين";
+"4 Participants" = "٤ مشاركين";
+
+"Information Security" = "أمن المعلومات";
+"Satellites" = "أقمار صناعية";
+"Introduction to IT and IS" = " مقدمة الى تقنية ونظم المعلومات";
+"Human Computer Interaction" = "التفاعل بين الانسان والحاسب";
+"Wireless Networks Security" = "أمن الشبكات اللاسلكية";
+"WEB Technologies" = "تقنيات الويب ";
+"Computer Orgnization" = "تنظيم الحاسب ";
+"Database Management" = " ادارة قواعد البيانات";
+"Information Technology" = "تقنية معلومات ";

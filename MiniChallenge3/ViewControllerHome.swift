@@ -10,24 +10,32 @@ import UIKit
 
 class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
     
+    @IBOutlet weak var studentName: UILabel!
     @IBOutlet weak var profileImage: UIImageView!
     @IBOutlet weak var PNU: UILabel!
     @IBOutlet weak var IT: UILabel!
     @IBOutlet weak var PNUlogo: UIImageView!
     @IBOutlet weak var StudyGroups: UILabel!
+    @IBOutlet weak var SeeAll: UIButton!
+    @IBOutlet weak var ready: UILabel!
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-
+    
     
     @IBOutlet weak var timerView: UIView!
     
     
     @IBOutlet weak var hoursLabel: UILabel!
-    
     @IBOutlet weak var minutesLabel: UILabel!
-    
     @IBOutlet weak var secLabel: UILabel!
+    
+    @IBOutlet weak var Hours: UILabel!
+    @IBOutlet weak var Minutes: UILabel!
+    @IBOutlet weak var Seconds: UILabel!
+    
+    
+    
     
     var timer: Timer!
     
@@ -36,7 +44,7 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
     
     var arrGroups = [studyGroups]()
     
-
+    
     override func viewDidLoad() {
         
         
@@ -45,43 +53,58 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
         
         collectionView?.delegate = self
         collectionView?.dataSource = self
-    
-
-
+        
+        studentName.text = NSLocalizedString("Sara Ahmed", comment: "")
+        IT.text = NSLocalizedString("Information Tencholgy", comment: "")
+        
+        StudyGroups.text = NSLocalizedString("Study Groups", comment: "")
+        
+        
+        SeeAll.titleLabel?.text = NSLocalizedString("See All", comment: "")
+        
+        ready.text = NSLocalizedString("Ready for next study group?", comment: "")
+        
+        Hours.text = NSLocalizedString("Hours", comment: "")
+        
+        Minutes.text = NSLocalizedString("Minutes", comment: "")
+        
+        Seconds.text = NSLocalizedString("Seconds", comment: "")
+        
+        
         // Array Append
         arrGroups.append(
-            studyGroups(GroupName: "Software Engineering",
+            studyGroups(GroupName: NSLocalizedString("Software Engineering", comment: ""),
                         CalendarIcon: UIImage(systemName: "calendar")!,
-                        Date: "Sun 12/6/2022",
+                        Date: NSLocalizedString("Sun 12/6/2022",comment:""),
                         TimeIcon: UIImage(systemName:"clock")!,
-                        Time: "2-3 PM"))
+                        Time:NSLocalizedString("2-3 PM",comment:"") ))
         arrGroups.append(
-            studyGroups(GroupName: "Database Management",
+            studyGroups(GroupName: NSLocalizedString("Database Management", comment: ""),
                         CalendarIcon: UIImage(systemName:"calendar")!,
-                        Date: "Tue 14/6/2022",
+                        Date:NSLocalizedString("Tue 14/6/2022",comment:""),
                         TimeIcon: UIImage(systemName:"clock")!,
                         Time: "8-10 AM"))
         arrGroups.append(
-            studyGroups(GroupName: "Networks Fundamentals",
+            studyGroups(GroupName: NSLocalizedString("Networks Fundamentals",comment: ""),
                         CalendarIcon: UIImage(systemName:"calendar")!,
-                        Date: "Wed 15/6/2022",
+                        Date: NSLocalizedString("Wed 15/6/2022",comment:""),
                         TimeIcon: UIImage(systemName:"clock")!,
-                        Time: "12-2 PM"))
+                        Time: NSLocalizedString("12-2 PM", comment:"")))
         
         arrGroups.append(
-            studyGroups(GroupName: "Operating System",
+            studyGroups(GroupName: NSLocalizedString(" Operating System",comment: ""),
                         CalendarIcon: UIImage(systemName:"calendar")!,
-                        Date: "Wed 15/6/2022",
+                        Date: NSLocalizedString("Wed 15/6/2022",comment:""),
                         TimeIcon: UIImage(systemName:"clock")!,
-                        Time: "9-11 AM"))
+                        Time: NSLocalizedString("9-11 AM", comment:"")))
         
         
         
         timerView.layer.cornerRadius = 20;
-
+        
         
         timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(UpdateTime), userInfo: nil, repeats: true)
-       
+        
         
     } // end of viewDidLoad
     
@@ -100,8 +123,8 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-       
-            
+        
+        
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "GroupCell", for: indexPath) as! GroupCollectionViewCell
         
         let data = arrGroups[indexPath.row]
@@ -109,7 +132,7 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
         cell.backgroundColor = UIColor.white
         cell.layer.cornerRadius = 15.0
         return cell
-   
+        
     }
     
     
@@ -127,8 +150,8 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
     }
     
     
-
-
+    
+    
     @objc func UpdateTime() {
         let userCalendar = Calendar.current
         // Set Current Date
@@ -166,4 +189,5 @@ class ViewControllerHome: UIViewController, UICollectionViewDelegate, UICollecti
     
     
 }
+
 
