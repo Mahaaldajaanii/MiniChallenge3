@@ -1109,7 +1109,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="862"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gA4-AT-Al6">
-                                        <rect key="frame" x="0.0" y="-140" width="414" height="900.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="900.5"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="24i-re-4h4">
                                                 <rect key="frame" x="20" y="350.5" width="382" height="159"/>
@@ -1200,7 +1200,7 @@
                                                 </constraints>
                                             </imageView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="u49-5V-aGF">
-                                                <rect key="frame" x="8" y="557.5" width="388" height="193.5"/>
+                                                <rect key="frame" x="8" y="557.5" width="388" height="194"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="3ua-BB-UwO">
                                                         <rect key="frame" x="0.0" y="0.0" width="388" height="90"/>
@@ -1263,7 +1263,7 @@
                                                         </constraints>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="b72-b6-2WU">
-                                                        <rect key="frame" x="0.0" y="101" width="388" height="92.5"/>
+                                                        <rect key="frame" x="0.0" y="101" width="388" height="93"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Requests:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBi-ND-RWF">
                                                                 <rect key="frame" x="0.0" y="0.0" width="82" height="20.5"/>
@@ -1272,10 +1272,10 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="Cpd-rE-9eH">
-                                                                <rect key="frame" x="0.0" y="20.5" width="388" height="72"/>
+                                                                <rect key="frame" x="0.0" y="20.5" width="388" height="72.5"/>
                                                                 <subviews>
                                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="3yy-4u-zry">
-                                                                        <rect key="frame" x="0.0" y="0.0" width="285.5" height="72"/>
+                                                                        <rect key="frame" x="0.0" y="0.0" width="285.5" height="72.5"/>
                                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="314-iS-8xX">
                                                                             <size key="itemSize" width="57" height="48"/>
@@ -1285,7 +1285,7 @@
                                                                         </collectionViewFlowLayout>
                                                                         <cells>
                                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="nWG-cw-AeI" customClass="RequestsCell" customModule="MiniChallenge3" customModuleProvider="target">
-                                                                                <rect key="frame" x="0.0" y="12" width="57" height="48"/>
+                                                                                <rect key="frame" x="0.0" y="12.5" width="57" height="48"/>
                                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                                 <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mcI-VY-1L3">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="57" height="48"/>
@@ -1409,7 +1409,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="Z8s-ld-sFd">
-                                <rect key="frame" x="20" y="88" width="374" height="774"/>
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <color key="backgroundColor" systemColor="systemGray6Color"/>
                                 <color key="tintColor" name="Background"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="oNS-9Z-ZJS">
@@ -1426,19 +1426,19 @@
                                             <rect key="frame" x="0.0" y="0.0" width="375" height="152"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="acceptt" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uY-tg-GaR">
-                                                    <rect key="frame" x="63" y="113" width="102" height="20"/>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-hQ-GIA">
+                                                    <rect key="frame" x="206" y="118" width="100" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="132" id="LVf-ov-WSr"/>
-                                                        <constraint firstAttribute="height" constant="30" id="Ous-Hz-Or1"/>
+                                                        <constraint firstAttribute="width" constant="132" id="63v-k8-2jr"/>
+                                                        <constraint firstAttribute="height" constant="30" id="SS8-FK-gYN"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled" title="Accept" cornerStyle="capsule">
+                                                    <buttonConfiguration key="configuration" style="filled" title="Delete" cornerStyle="capsule">
                                                         <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                        <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
+                                                        <color key="baseBackgroundColor" red="0.986085565" green="0.9291650696" blue="0.74997508489999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                     </buttonConfiguration>
                                                     <connections>
-                                                        <action selector="accept:" destination="wfl-E8-IfR" eventType="touchUpInside" id="OMO-DH-BbZ"/>
+                                                        <action selector="delet:" destination="wfl-E8-IfR" eventType="touchUpInside" id="lLi-zz-M2B"/>
                                                     </connections>
                                                 </button>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image 2" translatesAutoresizingMaskIntoConstraints="NO" id="9XT-dp-pDX">
@@ -1468,19 +1468,19 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoZ-hQ-GIA">
-                                                    <rect key="frame" x="191" y="113" width="100" height="20"/>
+                                                <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="acceptt" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3uY-tg-GaR">
+                                                    <rect key="frame" x="79" y="118" width="100" height="20"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="132" id="63v-k8-2jr"/>
-                                                        <constraint firstAttribute="height" constant="30" id="SS8-FK-gYN"/>
+                                                        <constraint firstAttribute="width" constant="132" id="LVf-ov-WSr"/>
+                                                        <constraint firstAttribute="height" constant="30" id="Ous-Hz-Or1"/>
                                                     </constraints>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="filled" title="Delete" cornerStyle="capsule">
+                                                    <buttonConfiguration key="configuration" style="filled" title="Accept" cornerStyle="capsule">
                                                         <color key="baseForegroundColor" systemColor="labelColor"/>
-                                                        <color key="baseBackgroundColor" red="0.986085565" green="0.9291650696" blue="0.74997508489999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                                        <color key="baseBackgroundColor" systemColor="systemYellowColor"/>
                                                     </buttonConfiguration>
                                                     <connections>
-                                                        <action selector="delet:" destination="wfl-E8-IfR" eventType="touchUpInside" id="lLi-zz-M2B"/>
+                                                        <action selector="accept:" destination="wfl-E8-IfR" eventType="touchUpInside" id="OMO-DH-BbZ"/>
                                                     </connections>
                                                 </button>
                                             </subviews>
@@ -1562,7 +1562,8 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="esf-Y0-0PM"/>
+        <segue reference="CWd-Bi-Cnn"/>
+        <segue reference="psR-bf-uJz"/>
         <segue reference="1vo-Hm-fXW"/>
         <segue reference="zoO-fe-OPN"/>
     </inferredMetricsTieBreakers>

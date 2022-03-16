@@ -102,8 +102,8 @@ extension RequestVC : UICollectionViewDataSource , UICollectionViewDelegate, UIC
         
         cell.accept.setTitle(NSLocalizedString("Accept", comment: ""), for: .normal)
         cell.accept.setTitle(NSLocalizedString("Accept", comment: ""), for: .selected)
-        cell.delete.setTitle(NSLocalizedString("Delet", comment: ""), for: .normal)
-        cell.delete.setTitle(NSLocalizedString("Delet", comment: ""), for: .selected)
+        cell.delete.setTitle(NSLocalizedString("Delete", comment: ""), for: .normal)
+        cell.delete.setTitle(NSLocalizedString("Delete", comment: ""), for: .selected)
         return cell
     }
     
