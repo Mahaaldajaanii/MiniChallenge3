@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="o3X-WW-lLb">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,7 +11,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Notification -->
+        <!--Courses View Controller-->
         <scene sceneID="WL0-Fq-ieo">
             <objects>
                 <viewController id="VAC-0A-01h" customClass="coursesViewController" customModule="MiniChallenge3" customModuleProvider="target" sceneMemberID="viewController">
@@ -102,7 +102,7 @@
                             <constraint firstAttribute="bottom" secondItem="aMt-jc-5j0" secondAttribute="bottom" id="bX4-Ii-AVD"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Notification " id="DWS-UF-J2m"/>
+                    <navigationItem key="navigationItem" id="DWS-UF-J2m"/>
                     <connections>
                         <outlet property="navigation" destination="aMt-jc-5j0" id="G6U-Jt-lig"/>
                         <outlet property="tableView" destination="aMt-jc-5j0" id="FOr-6g-zgo"/>
@@ -1541,11 +1541,11 @@
             </objects>
             <point key="canvasLocation" x="2303" y="1757"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Home-->
         <scene sceneID="hFQ-uD-LIo">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ckN-Ee-drp" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="house.fill" catalog="system" id="UAQ-hx-XdS"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="house.fill" catalog="system" id="UAQ-hx-XdS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bW5-fP-d4Y">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1560,11 +1560,11 @@
             </objects>
             <point key="canvasLocation" x="-2317.3913043478265" y="778.79464285714278"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Profile-->
         <scene sceneID="eXg-Oa-KeD">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Tsn-Bp-CrV" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="person.fill" catalog="system" id="j3n-Kw-4cI"/>
+                    <tabBarItem key="tabBarItem" title="Profile" image="person.fill" catalog="system" id="j3n-Kw-4cI"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="MCu-yT-GuP">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1579,11 +1579,12 @@
             </objects>
             <point key="canvasLocation" x="-231.8840579710145" y="778.79464285714278"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Notifications-->
         <scene sceneID="Cpd-Uq-f7Q">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oye-cp-TWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fRt-IK-6I2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="bell.fill" catalog="system" id="QsN-7n-X9h"/>
+                    <tabBarItem key="tabBarItem" title="Notifications" image="bell.fill" catalog="system" id="QsN-7n-X9h"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="jKp-hj-iQv">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -1594,15 +1595,14 @@
                         <segue destination="VAC-0A-01h" kind="relationship" relationship="rootViewController" id="Kvc-Gy-3dl"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Oye-cp-TWx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1800.0000000000002" y="778.79464285714278"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Setting-->
         <scene sceneID="bEz-gm-Cg0">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7EA-4c-FEO" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="" image="gearshape.fill" catalog="system" id="9fc-L6-JUe"/>
+                    <tabBarItem key="tabBarItem" title="Setting" image="gearshape.fill" catalog="system" id="9fc-L6-JUe"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="RTn-vl-III">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>

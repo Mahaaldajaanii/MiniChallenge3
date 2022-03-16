@@ -15,7 +15,7 @@ class coursesViewController: UIViewController, UITableViewDelegate, UITableViewD
     //    @IBOutlet weak var navtitle: UINavigationItem!
     
     let cr = [
-        course(date: NSLocalizedString("22/3/2022", comment: ""), studygr: NSLocalizedString("Study Groups", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "") ),
+        course(date: NSLocalizedString("22/3/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "") ),
         course(date: NSLocalizedString("19/3/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "")),
         course(date: NSLocalizedString("5/3/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Computer siences", comment: "")),
         course(date: NSLocalizedString("22/2/2022", comment: ""), studygr: NSLocalizedString("Study Group", comment: ""), courseName: NSLocalizedString("Softwar Engineering", comment: "")),
