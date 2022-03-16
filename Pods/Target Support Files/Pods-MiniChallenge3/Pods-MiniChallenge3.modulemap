@@ -1,0 +1,6 @@
+module Pods_MiniChallenge3 {
+  umbrella header "Pods-MiniChallenge3-umbrella.h"
+
+  export *
+  module * { export * }
+}
